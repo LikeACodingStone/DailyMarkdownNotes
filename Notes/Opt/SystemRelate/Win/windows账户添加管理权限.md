@@ -1,0 +1,1 @@
+给域账户添加管理员权限 ，C:/Windows/System32/Netplwiz.exe 打开之后添加域账号
