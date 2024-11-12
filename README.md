@@ -1,0 +1,2 @@
+# DailySoftNotes
+main repository
