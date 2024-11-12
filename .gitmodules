@@ -1,0 +1,15 @@
+[submodule "NormalOperator/ThirdTools"]
+	path = NormalOperator/ThirdTools
+	url = git@github.com:LikeACodingStone/NormalOperator-ThirdTools.git
+[submodule "NormalOperator/SystemLevel"]
+	path = NormalOperator/SystemLevel
+	url = git@github.com:LikeACodingStone/NormalOperator-SystemLevel.git
+[submodule "CodeMemory/FilesCode"]
+	path = CodeMemory/FilesCode
+	url = git@github.com:LikeACodingStone/CodeMemory-FilesCode.git
+[submodule "CodeMemory/ChipCode"]
+	path = CodeMemory/ChipCode
+	url = git@github.com:LikeACodingStone/CodeMemory-ChipCode.git
+[submodule "ToolsDownload"]
+	path = ToolsDownload
+	url = git@github.com:LikeACodingStone/ToolsDownload.git
