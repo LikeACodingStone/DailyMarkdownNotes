@@ -1,0 +1,15 @@
+[submodule "ToolsDownload"]
+	path = ToolsDownload
+	url = https://github.com/LikeACodingStone/ToolsDownload
+[submodule "CodeMemory/FilesCode"]
+	path = CodeMemory/FilesCode
+	url = https://github.com/LikeACodingStone/CodeMemory-FilesCode
+[submodule "CodeMemory/ChipCode"]
+	path = CodeMemory/ChipCode
+	url = https://github.com/LikeACodingStone/CodeMemory-ChipCode
+[submodule "NormalOperator/ThirdTools"]
+	path = NormalOperator/ThirdTools
+	url = https://github.com/LikeACodingStone/NormalOperator-ThirdTools
+[submodule "NormalOperator/SystemLevel"]
+	path = NormalOperator/SystemLevel
+	url = https://github.com/LikeACodingStone/NormalOperator-SystemLevel
