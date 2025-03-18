@@ -1,1 +1,0 @@
-- https://download.qt.io/new_archive/qt/
