@@ -1,12 +1,8 @@
 
 ```
-sudo alien jdk-18_linux-x64_bin.rpm 		//解压已经安装过的rpm文件，生成deb文件
+sudo alien jdk-18_linux-x64_bin.rpm
+//解压已经安装过的rpm文件，生成deb文件
 rpm -ivh jdk-18_linux-x64_bin.rpm  		//解压并安装未安装的rpm文件
-```
-
-```
- apt-get --purge remove adb //卸载程序adb
- Apt-cache search setuptools		// ubuntu 搜索安装包
 ```
 
 ```

@@ -14,3 +14,8 @@ uint32_t  hex_to_integer(const  std::string&  inputString)
 		return  0;
 }
 ```
+
+```
+if (str.find(",") != string::npos){
+}
+```

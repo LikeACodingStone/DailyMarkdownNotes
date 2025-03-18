@@ -1,7 +1,9 @@
 
+- LINK
 ```
-pip3 install pyinstaller			//打包
+https://blog.csdn.net/qq_23825121/article/details/125893796
 ```
+
 
 ```
 pip install PyQt5  # 安装pyqt5

@@ -2,8 +2,6 @@
 ```
 #include <boost/timer.hpp>
 boost::timer m_tmHeartbeatMonitor;
-
-
 ```
 
 # thread

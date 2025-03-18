@@ -1,34 +1,3 @@
-# Push To Review
-`
-git push --porcelain --progress --recurse-submodules=check origin refs/heads/branch_name:refs/for/branch_name
-`
-***
-# Recurse 
- - recurse pull
-`
-git pull --recurse-submodules 
-`
- - recurse checkout
-`
-git checkout branch_name --recurse-submodules
-`
-***
-# Create Local Branch For Remote Mirror
- - already exists remote
-`
-  remotes/origin/stabilization/2024/product_vics_CCS2_LGE
-`
-
- - create only 
-`
-git branch stabilization/2024/product_vics_CCS2_LGE --track   remotes/origin/stabilization/2024/product_vics_CCS2_LGE
-`
-
- - create and checkout
-`
-git checkout -b stabilization/2024/product_vics_CCS2_LGE --track   remotes/origin/stabilization/2024/product_vics_CCS2_LGE
-`
-***
 # 修改之前commit 的messsage
 
 ### 修改更早的提交信息
@@ -66,6 +35,10 @@ git checkout -b stabilization/2024/product_vics_CCS2_LGE --track   remotes/origi
 git submodule add https://github.com/CodingKilling/ChipCode  CodeMemory/ChipCode/sub-repo
 ```
 
-
+***
+- **repo reset hard**
+```
+ repo forall -c 'git reset --hard HEAD && git clean -fd'
+```
 
 
