@@ -12,3 +12,7 @@ sudo ip route add default via 192.168.1.1 dev eth0
 ```
 ping -c 3 8.8.8.8
 ```
+应用 netplan
+```
+sudo netplan apply
+```
