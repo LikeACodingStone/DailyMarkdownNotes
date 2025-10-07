@@ -1,10 +1,9 @@
-### **1. 编辑 Netplan 配置文件**
+### **1\. 编辑 Netplan 配置文件**
 
 使用以下命令打开 Netplan 配置文件（文件名可能不同，如 `00-installer-config.yaml` 或 `01-network-manager-all.yaml`）:
 
-`
-em: /etc/netplan/01-network-manager-all.yaml
-`
+`em: /etc/netplan/01-network-manager-all.yaml`
+
 ```
 network:
   version: 2
@@ -20,9 +19,38 @@ network:
           - 8.8.8.8
           - 8.8.4.4
 ```
- 
+
 ### 应用 Netplan 配置
+
 ```
 sudo netplan apply
 ```
+
 ### 同时 Network->Wired->IPv4 设置成Disable , 重启电脑
+
+*****
+### 固定IP切换回DHCP
+`
+sudo vi /etc/netplan/01-network-manager-all.yaml
+`
+```
+network:
+  version: 2
+  renderer: NetworkManager
+```
+
+`
+sudo vi /etc/NetworkManager/NetworkManager.conf
+`
+```
+[main]
+plugins=ifupdown,keyfile
+
+// set to true
+[ifupdown]
+managed=true
+
+[device]
+wifi.scan-rand-mac-address=no
+```
+*****

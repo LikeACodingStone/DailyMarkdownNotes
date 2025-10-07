@@ -98,3 +98,14 @@ docker save -o multiple_images.tar <image1>:<tag> <image2>:<tag>
 ```
 docker load -i <input_file>.tar
 ```
+
+### Docker Error Debug
+`
+sudo dockerd -D
+`
+`
+cat /var/log/docker.log
+`
+`
+journalctl -u docker.service --no-pager -n 50
+`
