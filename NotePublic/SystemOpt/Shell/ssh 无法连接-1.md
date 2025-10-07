@@ -1,2 +1,0 @@
-- ssh timeout
-	  - delete .ssh/known_hosts
