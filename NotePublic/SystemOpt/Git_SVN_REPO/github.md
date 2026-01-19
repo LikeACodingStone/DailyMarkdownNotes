@@ -7,6 +7,7 @@
 - 到github Setting网页，找到 SSH and GPG keys，在右上角，点击profiles settings
     
 - 新建ssh key 把  .ssh文件夹目录下的id\_rsa.pub 或id\_rsa_2.pub内容复制粘贴到github网站
+- 注意: .ssh文件夹只有运行 `ssh-keygen` 或者 `ssh` 远程命令的时候才能自动生成
     
 - 新建config文件 示例 [config](../../../_resources/config)
     

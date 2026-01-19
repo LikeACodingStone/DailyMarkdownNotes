@@ -18,15 +18,22 @@
 
 #### 这种机制称为 “页面置换（paging）”。
 ************
-#### 修改swap大小
+#### 修改swap大小, 临时
 ```
 sudo swapoff -a
 sudo rm /swapfile
-sudo fallocate -l 24G /swapfile
+sudo fallocate -l 32G /swapfile
 sudo chmod 600 /swapfile
 sudo mkswap /swapfile
 sudo swapon /swapfile
 free -h
+```
+#### 重启生效
+```
+sudo vi /etc/fstab
+
+//添加
+/swapfile none swap sw 0 0
 ```
 
 *****
@@ -44,3 +51,8 @@ sudo sysctl vm.swappiness=10
 ```
 - 若你是高内存机器（>32GB），可设得低一点，比如 10 或 5；
 - 如果是编译 AOSP 这类内存吃紧任务，可以临时提高到 40–60。
+#### 重启生效
+```
+sudo vi /etc/sysctl.conf
+vm.swappiness=20
+```

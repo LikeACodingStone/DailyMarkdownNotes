@@ -19,7 +19,7 @@ sudo usermod -aG sudo ccs1
 sudo chown -R ccs1:ccs2grp /user/home/Fred/
 
 //单纯改变组
-sudo chgrp -R  /user/home/Fred/
+sudo chgrp ccs2grp -R  /user/home/Fred/
 ```
 
 ### 给某个程序添加用户的执行权限
