@@ -9,4 +9,4 @@ export LC_ALL=zh_CN.UTF-8
 ```
 
 ### After finished the above steps. Choose Ibus Preference
-- 
+- ![alt text](image.png)
