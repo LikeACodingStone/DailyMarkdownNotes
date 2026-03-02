@@ -34,3 +34,9 @@ sudo systemctl restart samba
 sudo systemctl status smbd
 sudo systemctl status nmbd
 ```
+
+### Ubuntu open samba
+- at the file folder, use CTRL + L, input the location like
+`
+smb://172.30.2.199
+`
