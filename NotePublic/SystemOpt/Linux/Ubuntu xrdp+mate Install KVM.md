@@ -95,3 +95,35 @@ cd /var/lib/libvirt; sudo chmod -R 755 images
 - ensure 3D acceleration is not selected
 - ![alt text](_resources/vscodeImages-7)
 </div>
+
+***
+
+<div style="border: 3px solid #333; padding: 10px; border-radius: 8px;">
+
+# <span style="color: red;"> Create share folder </span>
+#### 1. Create local folder
+```
+mkdir -p ~/vmshare
+``` 
+#### 2. Enable shared memory
+- ![alt text](_resources/vscodeImages-8)
+#### 3. VM-> View Details → Add Hardware → Filesystem
+- ![alt text](_resources/vscodeImages-12)
+#### 4. Met start Error, with Solution.
+  - ![alt text](_resources/vscodeImages-11)
+
+#### 5. Host Running command to active
+```
+sudo apt update
+sudo apt install virtiofsd
+sudo apt install qemu-system-common
+sudo systemctl restart libvirtd
+// testing...............  must
+ls /usr/lib/qemu/virtiofsd
+```
+#### 6. Mount on virtual machine
+```
+sudo mkdir /mnt/vmshare
+sudo mount -t virtiofs vmshare /mnt/vmshare
+```
+</div>
