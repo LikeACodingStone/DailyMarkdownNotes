@@ -62,7 +62,7 @@ sudo add-apt-repository \
 - **Add Own User to the Group Docker**
 
 ```
-sudo usermod -G docker -a <username>
+sudo usermod -G docker -a $USER
 newgrp docker
 ```
 
