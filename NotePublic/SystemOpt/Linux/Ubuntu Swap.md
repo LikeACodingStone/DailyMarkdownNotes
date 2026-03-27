@@ -1,25 +1,34 @@
-# Ubuntu 20.04 以后默认使用 swap 文件
-### 当系统内存不足时，Linux 会把一部分暂时不用的内存页（page）写入 swap 空间，从而释放物理内存给更活跃的进程使用。
+# 🧠 Ubuntu 20.04 Swap Mechanism & Configuration Guide
 
-系统内存中的数据以 页（page） 为单位管理（通常每页 4KB）。
-当内存吃紧时，Linux 内核会：
+---
 
-1. 检测内存压力（Memory Pressure）
+## 📌 1. What is Swap?
 
-2. 选择不活跃的内存页（Inactive Pages），例如：
-	- 长时间未使用的应用数据
-	- 后台程序占用但暂时不用的内容
+When system memory is insufficient, Linux moves some inactive memory pages into **Swap space**, freeing up physical memory for more active processes.
 
-3. 将这些页写入 swap 区
+### 🧩 Memory Management Basics
 
-4. 释放这些页占用的 RAM
+* Memory is managed in units called **pages** (typically **4KB** each)
+* When memory becomes tight, the Linux kernel performs the following:
 
-5. 当这些页再次被访问时，再从 swap 读回来
+### ⚙️ Paging Process
 
-#### 这种机制称为 “页面置换（paging）”。
-************
-#### 修改swap大小, 临时
-```
+1. 🔍 Detect memory pressure (Memory Pressure)
+2. 📉 Select inactive pages (Inactive Pages), such as:
+
+   * 💤 Application data not used for a long time
+   * 🧊 Background program data temporarily unused
+3. 💾 Write these pages into Swap space
+4. 🧹 Free up RAM occupied by these pages
+5. 🔄 When needed again, read them back from Swap
+
+> 📘 This mechanism is called: **Paging**
+
+---
+
+## 🛠️ 2. Modify Swap Size (Temporary)
+
+```bash
 sudo swapoff -a
 sudo rm /swapfile
 sudo fallocate -l 32G /swapfile
@@ -28,31 +37,88 @@ sudo mkswap /swapfile
 sudo swapon /swapfile
 free -h
 ```
-#### 重启生效
-```
-sudo vi /etc/fstab
 
-//添加
+---
+
+## 🔁 3. Enable Swap on Boot
+
+Edit `/etc/fstab`:
+
+```bash
+sudo vi /etc/fstab
+```
+
+Add the following line:
+
+```bash
 /swapfile none swap sw 0 0
 ```
 
-*****
-#### Swappiness 参数（内核策略）
-vm.swappiness 是内核控制 swap 使用积极程度的参数，范围 0–100。
-- 值越 高：系统更早开始使用 swap
-- 值越 低：尽可能使用物理内存，最后才用 swap
-常见配置：
-```
-cat /proc/sys/vm/swappiness
-# 默认通常是 60
+---
 
+## 🎛️ 4. Swappiness Parameter (Kernel Policy)
+
+`vm.swappiness` controls how aggressively the system uses Swap. Range:
+
+```
+0 – 100
+```
+
+### 📊 Meaning
+
+* 🔺 Higher value → system uses Swap earlier
+* 🔻 Lower value → prefer RAM as much as possible, use Swap last
+
+---
+
+### 🔍 Check Current Value
+
+```bash
+cat /proc/sys/vm/swappiness
+```
+
+👉 Default is usually: `60`
+
+---
+
+### ⚡ Temporary Adjustment
+
+```bash
 sudo sysctl vm.swappiness=10
-# 临时调整
 ```
-- 若你是高内存机器（>32GB），可设得低一点，比如 10 或 5；
-- 如果是编译 AOSP 这类内存吃紧任务，可以临时提高到 40–60。
-#### 重启生效
-```
+
+---
+
+### 💡 Recommended Settings
+
+| Scenario                        | Recommended Value |
+| ------------------------------- | ----------------- |
+| 🖥️ High-memory machine (>32GB) | 5 – 10            |
+| 🏗️ AOSP build / heavy workload | 40 – 60           |
+| ⚖️ General usage                | 10 – 20           |
+
+---
+
+### 🔒 Make It Persistent
+
+Edit the configuration file:
+
+```bash
 sudo vi /etc/sysctl.conf
+```
+
+Add:
+
+```bash
 vm.swappiness=20
 ```
+
+---
+
+## ✅ Summary
+
+* 🧠 Swap is a “buffer” for memory, not a replacement
+* ⚡ Adjusting swappiness helps optimize performance
+* 🛠️ Proper Swap sizing is important for heavy workloads
+
+---
