@@ -1,42 +1,69 @@
-- samba server config 
+### install samba
+```
+sudo apt update
+sudo apt install samba -y
+```
+***
+### everyone access config
+```
+[public]
+   path = /mnt/samsung4t/sharefolder
+   browseable = yes
+   writable = yes
+   guest ok = yes
+   read only = no
+   force user = nobody
+   create mask = 0777
+   directory mask = 0777
+
+```
+- setting folder access, necessary
+```
+sudo chown -R nobody:nogroup /mnt/samsung4t/sharefolder
+sudo chmod -R 777 /mnt/samsung4t/sharefolder
+sudo chmod o+x /mnt
+sudo chmod o+x /mnt/samsung4t
+```
+- sudo systemctl restart smbd
+****
+### with account access config
 ```
 [PRV]
-   browseable = yes
-   path = /home/neusoft/share
+   browseable = no
+   path = /home/neusoft/share/Private
    guest ok = yes
    read only = no
    writable = yes
    create mask = 0644
    directory mask = 0755
    force directory mode = 0755
-   valid user = neusoft
+   force user = neusoft
+   force group = neusoft
+   available = yes
+
+[COMMON]
+   browseable = yes
+   path = /home/neusoft/share/Common
+   guest ok = yes
+   writable = yes
+   create mask = 0644
+   directory mask = 0755
+   force directory mode = 0755
    force user = neusoft
    force group = neusoft
    available = yes
 ```
-- 我們只能對一臺計算機設置一個登錄賬戶， 一般權限問題都是user 和group 或者 chmod 引起的
-
+***
+### FileBrowser Settings
+- 如果安裝成功，你會看到類似 FileBrowser installed successfully 的提示。
 ```
-sudo mkdir -p /srv/samba/public
-sudo chown -R nobody:nogroup /srv/samba/public
-sudo chmod -R 0775 /srv/samba/public
-
-sudo useradd nobody
-sudo smbpasswd -a nobody
+curl -fsSL https://raw.githubusercontent.com/filebrowser/get/master/get.sh | bash
 ```
-
-- restart
+- start browser server
 ```
-sudo systemctl restart smbd
-sudo systemctl restart nmbd
-sudo systemctl restart samba
-
-sudo systemctl status smbd
-sudo systemctl status nmbd
+filebrowser -d /mnt/samsung4t/sharefolder/filebrowser.db -r /mnt/samsung4t/sharefolder -a 0.0.0.0 -p 8080
 ```
-
-### Ubuntu open samba
-- at the file folder, use CTRL + L, input the location like
-`
-smb://172.30.2.199
-`
+- updating password
+```
+filebrowser users update admin --password "admin12345678" -d /mnt/samsung4t/sharefolder/filebrowser.db
+```
