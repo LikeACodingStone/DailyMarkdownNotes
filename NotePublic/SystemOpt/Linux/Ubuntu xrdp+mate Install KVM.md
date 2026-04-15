@@ -71,6 +71,8 @@ network:
           - 8.8.4.4
 ``` 
 ### Reboot machine
+####  For static Ip for both host machine and vm machine, need to set network like the fellow
+- ![alt text](_resources/vscodeImages-14)
 
 </div>
 
