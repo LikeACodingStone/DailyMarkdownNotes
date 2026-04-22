@@ -16,6 +16,7 @@ sudo apt upgrade -y
 ```
 sudo apt install -y qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virt-manager
 ```
+
 #### 4. check service status
 ```
 sudo systemctl enable --now libvirtd
@@ -128,4 +129,23 @@ ls /usr/lib/qemu/virtiofsd
 sudo mkdir /mnt/vmshare
 sudo mount -t virtiofs vmshare /mnt/vmshare
 ```
+</div>
+
+
+# <span style="color: red;"> Additional Knowledge </span>
+#### 1. Additional to Special Disk, Jump to Create Virtual Machine
+
+```
+sudo mkdir -p /media/neu/kvm_images
+
+//movie iso to kvm_images folder
+
+sudo setfacl -m u:libvirt-qemu:rx /media/neu
+sudo setfacl -R -m u:libvirt-qemu:rwx /media/neu/kvm_images
+```
+
+#### 2. iso not active. need to change boot order
+
+![alt text](_resources/vscodeImages-15)
+![alt text](_resources/vscodeImages-16)
 </div>
