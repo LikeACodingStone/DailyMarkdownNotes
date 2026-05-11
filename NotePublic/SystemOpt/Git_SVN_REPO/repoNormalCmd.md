@@ -3,3 +3,8 @@
 假如 1112877 是cherry-pick 的 id 号 
 repo download -c . 1112877
 ``` 
+### repo-lfs, git-lfs
+- saving the credential for countinously input account
+```
+git config --global credential.helper 'cache --timeout=3600'
+```
