@@ -21,8 +21,24 @@ sudo apt install samba -y
 ```
 sudo chown -R nobody:nogroup /mnt/samsung4t/sharefolder
 sudo chmod -R 777 /mnt/samsung4t/sharefolder
+
+//看情况可以不添加，/home/user则必须添加
 sudo chmod o+x /mnt
 sudo chmod o+x /mnt/samsung4t
+```
+
+- access穿透核心原理：Linux 查找文件是从左到右、层层递进的，如果一个目录没有 x 权限，你就无法“穿过”它。即使你明确知道该目录下面有一个权限为 777 的文件，只要上级目录没有 x 权限，系统内核在沿着路径寻找时，就会在这一层被挡住，直接报 Permission denied。
+```
+/ (根目录)         --> 检查 nobody 是否有 x 权限 (默认都有)
+   └── home        --> 检查 nobody 是否有 x 权限 (默认都有)
+        └── neu    --> 检查 nobody 是否有 x 权限 (❌ 默认没有！卡在这里报错)
+             └── ccs2 --> 根本还没走到这一步
+// 如果是home目录下，意味着共享目录用户要加这个，就是 /home/neu，类似
+sudo chmod o+x /home/neu
+
+/ (根目录)       --> 检查 nobody 是否有 x 权限 (默认允许)
+   └── mnt       --> 检查 nobody 是否有 x 权限 (默认允许！无需手动修改)
+        └── ccs2 --> 直接到达目标，只需确保 ccs2 自身权限足够
 ```
 - sudo systemctl restart smbd
 ****
