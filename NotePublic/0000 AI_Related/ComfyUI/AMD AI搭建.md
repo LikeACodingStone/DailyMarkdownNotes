@@ -17,7 +17,7 @@ sudo usermod -a -G render,video $LOGNAME
 2\. 去官网下载UBUNTU系统的AMD GPU Driver amdgpu-install_6.4.60402-1_all.deb  
 3\. 安装Python虚拟环境  
 4\. 安装PyTorch  
-5\. 验证GPU ? (失败，切换Linux内核)  
+5\. 验证GPU ? (失败，切换Linux内核)  (ubuntu24.04 使用6.8.0-83-generic)
     - sudo apt update  
     - sudo apt install linux-image-generic  
 6\. 验证Python虚拟环境，并且安装ROCM，适配版本(更新到合适版本或者最新版，这个很重要)  
