@@ -1,0 +1,10 @@
+- account: zhs2yh@bosch.com
+[Bosch Mail](https://outlook.office.com/mail)
+[Bosch OTA Package](https://rb-cmbinex-yh-p1.apac.bosch.com/ui/repos/tree/General/rnm-ccs2.0-repos/bosch/deployment/android_qpr3_12/ccs2_qpr3_a12_int_2025.17.5/OTA/ISH.25.17.05.S0M_ccs2_qpr3_a12_int_2025.17.5_aivi2_b-userdebug_full_ota.zip)
+[Bosch Package DailyBuild  Mainpage](https://rb-cmbinex-yh-p1.apac.bosch.com/ui/repos/tree/General/rnm-ccs2.0-repos/bosch/deployment/android_qpr3_12)
+[Bosch Package DailyBuild Japan ](https://rb-cmbinex-yh-p1.apac.bosch.com/artifactory/rnm-ccs2.0-fe-local/bosch/deployment/)
+[Bosch CCS dev+sync+instructions](https://inside-docupedia.bosch.com/confluence/display/AIVI/CCS2+developer+sync+instructions)
+[Bosch Mainpage German Contains Aurix](https://ccs2-metrics.apac.bosch.com/d/UcrU38F4z/ccs2-nissan-sw-release-info-table?orgId=1)
+[Aurix Download](https://rb-cmbinex-fe-p1.de.bosch.com/ui/repos/tree/General/basesoftware-repos/basesoftware/gen4/AURIX/pf_generic-autosar)
+[Bosch My Dashboard](https://rbcm-gerrit.de.bosch.com/dashboard/self)
+[A14_Bosch Compile Fe](https://rb-cmbinex-fe-p1.de.bosch.com/artifactory/rnm-ccs2.0-repos/bosch/deployment/android_a14)
