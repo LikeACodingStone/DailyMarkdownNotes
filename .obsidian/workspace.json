@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TokyoBigsiteLogs/Neusoft/tmp/Drive.md",
+                "file": "PublicMarkdown/MarkdownGrammer/常用html进阶.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Drive"
+              "title": "常用html进阶"
             }
           }
         ]
@@ -193,6 +193,32 @@
   },
   "active": "730c51c03f082889",
   "lastOpenFiles": [
-    "TokyoBigsiteLogs/Neusoft/tmp/k6.1 compiling error.md"
+    "PublicMarkdown/NotePublic/MarkdownQuickPaste.md",
+    "PublicMarkdown/MarkdownGrammer/常用html进阶.md",
+    "PublicMarkdown/MarkdownGrammer/数学公式.md",
+    "PublicMarkdown/MarkdownGrammer/图片和链接.md",
+    "PublicMarkdown/MarkdownGrammer/列表和引用.md",
+    "PublicMarkdown/MarkdownGrammer/代码和分割线.md",
+    "PublicMarkdown/MarkdownGrammer/基础文本样式.md",
+    "PublicMarkdown/MarkdownGrammer/Code_Highlight.md",
+    "PublicMarkdown/MarkdownGrammer/表格.md",
+    "PublicMarkdown/MarkdownGrammer",
+    "PublicMarkdown/NotePublic/0000 AI_Related/ComfyUI/AMD AI搭建.md",
+    "PublicMarkdown/NotePublic/SystemOpt/Shell/ldconfig load so.md",
+    "PublicMarkdown/NotePublic/SystemOpt/Shell/gcc.md",
+    "PublicMarkdown/NotePublic/SystemOpt/Shell/Find_Grep.md",
+    "PublicMarkdown/NotePublic/SystemOpt/Git_SVN_REPO/repo lfs.md",
+    "PublicMarkdown/NotePublic/SystemOpt/Git_SVN_REPO/github.md",
+    "PublicMarkdown/NotePublic/SystemOpt/Git_SVN_REPO/git reset user name.md",
+    "PublicMarkdown/NotePublic/SystemOpt/Git_SVN_REPO/Git change previous commit message.md",
+    "PublicMarkdown/NotePublic/SystemOpt/Git_SVN_REPO/Git branch related.md",
+    "PublicMarkdown/NotePublic/SystemOpt/Git_SVN_REPO/Docker login access.md",
+    "PublicMarkdown/NotePublic/PasteFiles/windows 平台编译QJson.md",
+    "PublicMarkdown/NotePublic/PasteFiles/常用安装VSCODE+PYQT5.md",
+    "PublicMarkdown/NotePublic/PasteFiles/Qt 常用总结.md",
+    "PublicMarkdown/NotePublic/PasteFiles/pyinstaller.md",
+    "PublicMarkdown/NotePublic/PasteFiles/0000  Qt常用内置图标.md",
+    "PublicMarkdown/NotePublic/JapaneseLearning/N3_Grammer.md",
+    "PublicMarkdown/NotePublic/IDEOpt/WindowsSoftware/excel.md"
   ]
 }
