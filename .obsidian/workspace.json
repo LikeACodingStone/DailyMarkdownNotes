@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "97c09ae6ecdff024",
+        "id": "40715afcbf9d33ba",
         "type": "tabs",
         "children": [
           {
-            "id": "730c51c03f082889",
+            "id": "eaf6de5ade7c0607",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PublicMarkdown/MarkdownGrammer/常用html进阶.md",
-                "mode": "source",
+                "file": "PublicMarkdown/NotePublic/SystemOpt/Git_SVN_REPO/hooks pre-commit.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "常用html进阶"
+              "title": "hooks pre-commit"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "git pull ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -191,34 +191,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "730c51c03f082889",
+  "active": "eaf6de5ade7c0607",
   "lastOpenFiles": [
-    "PublicMarkdown/NotePublic/MarkdownQuickPaste.md",
-    "PublicMarkdown/MarkdownGrammer/常用html进阶.md",
-    "PublicMarkdown/MarkdownGrammer/数学公式.md",
-    "PublicMarkdown/MarkdownGrammer/图片和链接.md",
-    "PublicMarkdown/MarkdownGrammer/列表和引用.md",
-    "PublicMarkdown/MarkdownGrammer/代码和分割线.md",
-    "PublicMarkdown/MarkdownGrammer/基础文本样式.md",
-    "PublicMarkdown/MarkdownGrammer/Code_Highlight.md",
-    "PublicMarkdown/MarkdownGrammer/表格.md",
-    "PublicMarkdown/MarkdownGrammer",
-    "PublicMarkdown/NotePublic/0000 AI_Related/ComfyUI/AMD AI搭建.md",
-    "PublicMarkdown/NotePublic/SystemOpt/Shell/ldconfig load so.md",
-    "PublicMarkdown/NotePublic/SystemOpt/Shell/gcc.md",
-    "PublicMarkdown/NotePublic/SystemOpt/Shell/Find_Grep.md",
-    "PublicMarkdown/NotePublic/SystemOpt/Git_SVN_REPO/repo lfs.md",
+    "pre-commit.md",
+    "PublicMarkdown/NotePublic/SystemOpt/Git_SVN_REPO/hooks pre-commit.md",
+    "pre-commit",
     "PublicMarkdown/NotePublic/SystemOpt/Git_SVN_REPO/github.md",
+    "pre-commit 2.md",
+    "pre-commit 2",
+    "TokyoBigsiteLogs/Neusoft/For_PDF_Export/Android Studio Compiling Error.md",
+    "TokyoBigsiteLogs/Neusoft/tmp/Drive.md",
+    "PublicMarkdown/NotePublic/SystemOpt/Git_SVN_REPO/Hooks.md",
+    "PublicMarkdown/NotePublic/SystemOpt/Git_SVN_REPO/SVN Related.md",
+    "pre-commit 1.md",
+    "pre-commit 1",
+    "PublicMarkdown/NotePublic/SystemOpt/Git_SVN_REPO/Git Daily Command.md",
     "PublicMarkdown/NotePublic/SystemOpt/Git_SVN_REPO/git reset user name.md",
     "PublicMarkdown/NotePublic/SystemOpt/Git_SVN_REPO/Git change previous commit message.md",
     "PublicMarkdown/NotePublic/SystemOpt/Git_SVN_REPO/Git branch related.md",
     "PublicMarkdown/NotePublic/SystemOpt/Git_SVN_REPO/Docker login access.md",
-    "PublicMarkdown/NotePublic/PasteFiles/windows 平台编译QJson.md",
-    "PublicMarkdown/NotePublic/PasteFiles/常用安装VSCODE+PYQT5.md",
-    "PublicMarkdown/NotePublic/PasteFiles/Qt 常用总结.md",
-    "PublicMarkdown/NotePublic/PasteFiles/pyinstaller.md",
-    "PublicMarkdown/NotePublic/PasteFiles/0000  Qt常用内置图标.md",
-    "PublicMarkdown/NotePublic/JapaneseLearning/N3_Grammer.md",
-    "PublicMarkdown/NotePublic/IDEOpt/WindowsSoftware/excel.md"
+    "Untitled.md",
+    "TokyoBigsiteLogs/Neusoft/For_PDF_Export/Bosch_RepoOperation.md",
+    "PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu 自定义快捷程序·.md",
+    "TokyoBigsiteLogs/Neusoft/Task/DailyTmp.md",
+    "TokyoBigsiteLogs/Neusoft/tmp/promt.md",
+    "TokyoBigsiteLogs/Neusoft/tmp/错题.md",
+    "TokyoBigsiteLogs/Neusoft/Task/All links.md",
+    "TokyoBigsiteLogs/Neusoft/Task/Android Studio env.md",
+    "TokyoBigsiteLogs/Neusoft/For_PDF_Export/Ubuntu Android Studio Setup.md",
+    "TokyoBigsiteLogs/Neusoft/For_PDF_Export/Erase_all.md",
+    "TokyoBigsiteLogs/Neusoft/For_PDF_Export/DA3 REPO ERROR.md",
+    "PublicMarkdown/MarkdownGrammer"
   ]
 }
