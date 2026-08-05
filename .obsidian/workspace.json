@@ -11,14 +11,14 @@
             "id": "fb5565ea9a664e32",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "TokyoBigsiteLogs/Neusoft/For_PDF_Export/DA3 REPO ERROR.md",
-                "mode": "source",
-                "source": false
+                "aFile": "PublicMarkdown/MarkdownGrammer/表格.md",
+                "bFile": "PublicMarkdown/MarkdownGrammer/表格.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "DA3 REPO ERROR"
+              "icon": "diff",
+              "title": "Diff: 表格  (Working Tree)"
             }
           }
         ]
@@ -232,17 +232,25 @@
       }
     ]
   },
-  "active": "bf83500146fc6a71",
+  "active": "fb5565ea9a664e32",
   "lastOpenFiles": [
-    "pre-commit 2",
+    "PublicMarkdown/NotePublic/SystemOpt/Linux/ubuntu-26.04-desktop-disk-lvm-before-install-system.md",
+    "PublicMarkdown/NotePublic/SystemOpt/Linux/ubuntu-26.04-desktop-100g-lvm-after-install-system.md",
+    "TokyoBigsiteLogs/Neusoft/tmp/Untitled.md",
     "TokyoBigsiteLogs/Neusoft/tmp/错题.md",
+    "PublicMarkdown/MarkdownGrammer/表格.md",
+    "PublicMarkdown/MarkdownGrammer/数学公式.md",
+    "PublicMarkdown/MarkdownGrammer/常用html进阶.md",
+    "PublicMarkdown/MarkdownGrammer/图片和链接.md",
+    "PublicMarkdown/MarkdownGrammer/列表和引用.md",
+    "PublicMarkdown/MarkdownGrammer/基础文本样式.md",
+    "PublicMarkdown/MarkdownGrammer/代码和分割线.md",
+    "TokyoBigsiteLogs/Neusoft/For_PDF_Export/DA3 REPO ERROR.md",
+    "pre-commit 2",
     "Untitled.canvas",
     "2026-08-05.md",
     "pre-commit.md",
-    "TokyoBigsiteLogs/Neusoft/tmp/Untitled.md",
     "TokyoBigsiteLogs/Neusoft/tmp/Correct License.md",
-    "PublicMarkdown/NotePublic/SystemOpt/Linux/ubuntu-26.04-desktop-disk-lvm-before-install-system.md",
-    "PublicMarkdown/NotePublic/SystemOpt/Linux/ubuntu-26.04-desktop-100g-lvm-after-install-system.md",
     "PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu 分用户权限管理.md",
     "PublicMarkdown/NotePublic/SystemOpt/PluginTools/Docker/Docker Issue.md",
     "TokyoBigsiteLogs/Neusoft/tmp/promt1.md",
@@ -254,13 +262,6 @@
     "PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu protect UI delete.md",
     "PublicMarkdown/NotePublic/SystemOpt/HardWare/Amd GPU memeory status.md",
     "PublicMarkdown/NotePublic/SystemOpt/Linux/ubuntu_benchmark_guide_short.md",
-    "PublicMarkdown/NotePublic/SystemOpt/Linux/ubuntu_android_guide.md",
-    "PublicMarkdown/NotePublic/0000 AI_Related/ComfyUI/AMD AI搭建.md",
-    "PublicMarkdown/NotePublic/PasteFiles/Qt 常用总结.md",
-    "PublicMarkdown/NotePublic/SystemOpt/Linux/Untitled.md",
-    "PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu safe-rm instead of rm -rf.md",
-    "PublicMarkdown/NotePublic/IDEOpt/Android&Java/adb.md",
-    "PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu chattr.md",
     "pre-commit",
     "pre-commit 1",
     "PublicMarkdown/MarkdownGrammer"
