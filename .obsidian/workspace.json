@@ -13,12 +13,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "PublicMarkdown/MarkdownGrammer/表格.md",
-                "bFile": "PublicMarkdown/MarkdownGrammer/表格.md",
+                "aFile": "PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu24.04中文输入法.md",
+                "bFile": "PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu24.04中文输入法.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: 表格  (Working Tree)"
+              "title": "Diff: Ubuntu24.04中文输入法  (Working Tree)"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "adduser",
+                "query": "中文",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -193,51 +193,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "5b60e7413a2ddf88",
-    "type": "floating",
-    "children": [
-      {
-        "id": "860f6050ffb365ce",
-        "type": "window",
-        "children": [
-          {
-            "id": "f1eb38728a83c359",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "eaf6de5ade7c0607",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "TokyoBigsiteLogs/Neusoft/tmp/错题.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "错题"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 2211,
-        "y": 28,
-        "width": 1024,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "fb5565ea9a664e32",
   "lastOpenFiles": [
+    "TokyoBigsiteLogs/Neusoft/tmp/promt.md",
+    "TokyoBigsiteLogs/Neusoft/tmp/错题.md",
+    "TokyoBigsiteLogs/Neusoft/tmp/Untitled.md",
+    "TokyoBigsiteLogs/Neusoft/tmp/Correct License.md",
+    "PublicMarkdown/NotePublic/IDEOpt/WindowsSoftware/Work 文档.md",
+    "TokyoBigsiteLogs/Neusoft/tmp/drive.md",
+    "PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu24.04中文输入法.md",
+    "_resources/vscodeImages.md",
+    "_resources",
+    "PublicMarkdown/NotePublic/SystemOpt/PluginTools/3.Doxygen和Microsoft HTML Help安装.md",
+    "TokyoBigsiteLogs/Neusoft/Task/Android Studio env.md",
+    "TokyoBigsiteLogs/Neusoft/Task/Bosch CCS2 Repo.md",
+    "TokyoBigsiteLogs/Neusoft/Task/Bosch Code Check.md",
+    "TokyoBigsiteLogs/Neusoft/Task/All links.md",
+    "PublicMarkdown/NotePublic/SystemOpt/PluginTools/samba.md",
+    "PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu 分用户权限管理.md",
     "PublicMarkdown/NotePublic/SystemOpt/Linux/ubuntu-26.04-desktop-disk-lvm-before-install-system.md",
     "PublicMarkdown/NotePublic/SystemOpt/Linux/ubuntu-26.04-desktop-100g-lvm-after-install-system.md",
-    "TokyoBigsiteLogs/Neusoft/tmp/Untitled.md",
-    "TokyoBigsiteLogs/Neusoft/tmp/错题.md",
     "PublicMarkdown/MarkdownGrammer/表格.md",
     "PublicMarkdown/MarkdownGrammer/数学公式.md",
     "PublicMarkdown/MarkdownGrammer/常用html进阶.md",
@@ -249,19 +224,6 @@
     "pre-commit 2",
     "Untitled.canvas",
     "2026-08-05.md",
-    "pre-commit.md",
-    "TokyoBigsiteLogs/Neusoft/tmp/Correct License.md",
-    "PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu 分用户权限管理.md",
-    "PublicMarkdown/NotePublic/SystemOpt/PluginTools/Docker/Docker Issue.md",
-    "TokyoBigsiteLogs/Neusoft/tmp/promt1.md",
-    "TokyoBigsiteLogs/Neusoft/tmp/promt.md",
-    "TokyoBigsiteLogs/Neusoft/tmp/Drive.md",
-    "PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu Swap.md",
-    "PublicMarkdown/NotePublic/IDEOpt/WindowsSoftware/anki_fsrs_optimization_guide.md",
-    "PublicMarkdown/NotePublic/SystemOpt/Git_SVN_REPO/hooks pre-commit.md",
-    "PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu protect UI delete.md",
-    "PublicMarkdown/NotePublic/SystemOpt/HardWare/Amd GPU memeory status.md",
-    "PublicMarkdown/NotePublic/SystemOpt/Linux/ubuntu_benchmark_guide_short.md",
     "pre-commit",
     "pre-commit 1",
     "PublicMarkdown/MarkdownGrammer"

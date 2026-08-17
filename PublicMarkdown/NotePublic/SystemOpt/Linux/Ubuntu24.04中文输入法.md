@@ -1,5 +1,5 @@
 ### Mate + XRDP remote solution
- [csdn Link](https://blog.csdn.net/unravel_tom/article/details/139360244)
+Ubuntu_24.04_Chinese_Locale_and_Input_Method.md
  
 - The keywords extracted
 ```
