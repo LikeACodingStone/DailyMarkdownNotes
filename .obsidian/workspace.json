@@ -11,14 +11,14 @@
             "id": "fb5565ea9a664e32",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu24.04中文输入法.md",
-                "bFile": "PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu24.04中文输入法.md",
-                "aRef": ""
+                "file": "TokyoBigsiteLogs/Neusoft/Task/Code Keywords.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Ubuntu24.04中文输入法  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Code Keywords"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "中文",
+                "query": "jira",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -195,35 +196,35 @@
   },
   "active": "fb5565ea9a664e32",
   "lastOpenFiles": [
-    "TokyoBigsiteLogs/Neusoft/tmp/promt.md",
-    "TokyoBigsiteLogs/Neusoft/tmp/错题.md",
-    "TokyoBigsiteLogs/Neusoft/tmp/Untitled.md",
-    "TokyoBigsiteLogs/Neusoft/tmp/Correct License.md",
-    "PublicMarkdown/NotePublic/IDEOpt/WindowsSoftware/Work 文档.md",
-    "TokyoBigsiteLogs/Neusoft/tmp/drive.md",
-    "PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu24.04中文输入法.md",
-    "_resources/vscodeImages.md",
-    "_resources",
-    "PublicMarkdown/NotePublic/SystemOpt/PluginTools/3.Doxygen和Microsoft HTML Help安装.md",
-    "TokyoBigsiteLogs/Neusoft/Task/Android Studio env.md",
-    "TokyoBigsiteLogs/Neusoft/Task/Bosch CCS2 Repo.md",
+    "TokyoBigsiteLogs/Neusoft/Task/password.md",
+    "TokyoBigsiteLogs/Neusoft/Task/Code Keywords.md",
+    "TokyoBigsiteLogs/Neusoft/Task/DailyTmp.md",
+    "TokyoBigsiteLogs/Neusoft/Task/Release 相关.md",
+    "TokyoBigsiteLogs/Neusoft/Task/install cisco.md",
+    "TokyoBigsiteLogs/Neusoft/Task/ftp_links.md",
+    "TokyoBigsiteLogs/Neusoft/Task/Compile_Download_Error.md",
     "TokyoBigsiteLogs/Neusoft/Task/Bosch Code Check.md",
+    "TokyoBigsiteLogs/Neusoft/Task/Bosch CCS2 Repo.md",
+    "TokyoBigsiteLogs/Neusoft/Task/Android Studio env.md",
+    "TokyoBigsiteLogs/Neusoft/Task/CCS2_Bosch_DebugAllAPP.md",
+    "TokyoBigsiteLogs/Neusoft/Task/Bosch Repo Error.md",
     "TokyoBigsiteLogs/Neusoft/Task/All links.md",
-    "PublicMarkdown/NotePublic/SystemOpt/PluginTools/samba.md",
-    "PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu 分用户权限管理.md",
-    "PublicMarkdown/NotePublic/SystemOpt/Linux/ubuntu-26.04-desktop-disk-lvm-before-install-system.md",
-    "PublicMarkdown/NotePublic/SystemOpt/Linux/ubuntu-26.04-desktop-100g-lvm-after-install-system.md",
-    "PublicMarkdown/MarkdownGrammer/表格.md",
+    "TokyoBigsiteLogs/Neusoft/Task/update neusoft hooks.md",
+    "TokyoBigsiteLogs/Neusoft/tmp/promt.md",
+    "PublicMarkdown/NotePublic/IDEOpt/Android&Java/aosp task.md",
+    "PublicMarkdown/NotePublic/IDEOpt/Android&Java/Android-Studio Gradle.md",
+    "PublicMarkdown/NotePublic/IDEOpt/Android&Java/Android Studio.md",
+    "PublicMarkdown/NotePublic/IDEOpt/Android&Java/adb.md",
+    "PublicMarkdown/NotePublic/CodeChips/Qt Concept.md",
+    "PublicMarkdown/NotePublic/CodeChips/C++ Concept.md",
+    "TokyoBigsiteLogs/Neusoft/tmp/2016.md",
     "PublicMarkdown/MarkdownGrammer/数学公式.md",
-    "PublicMarkdown/MarkdownGrammer/常用html进阶.md",
-    "PublicMarkdown/MarkdownGrammer/图片和链接.md",
-    "PublicMarkdown/MarkdownGrammer/列表和引用.md",
-    "PublicMarkdown/MarkdownGrammer/基础文本样式.md",
-    "PublicMarkdown/MarkdownGrammer/代码和分割线.md",
-    "TokyoBigsiteLogs/Neusoft/For_PDF_Export/DA3 REPO ERROR.md",
+    "PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu xrdp+mate Install KVM 24.04.md",
+    "PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu_Windows Remote.md",
+    "PublicMarkdown/NotePublic/SystemOpt/Linux/ubuntu_android_guide.md",
+    "_resources",
     "pre-commit 2",
     "Untitled.canvas",
-    "2026-08-05.md",
     "pre-commit",
     "pre-commit 1",
     "PublicMarkdown/MarkdownGrammer"
