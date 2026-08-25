@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TokyoBigsiteLogs/Neusoft/Task/Code Keywords.md",
+                "file": "PublicMarkdown/NotePublic/SystemOpt/Linux/npm_global_install_solution.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Code Keywords"
+              "title": "npm_global_install_solution"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "jira",
+                "query": "npm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 271.5
   },
   "right": {
     "id": "0344ebb4698bd1b2",
@@ -196,8 +196,9 @@
   },
   "active": "fb5565ea9a664e32",
   "lastOpenFiles": [
-    "TokyoBigsiteLogs/Neusoft/Task/password.md",
     "TokyoBigsiteLogs/Neusoft/Task/Code Keywords.md",
+    "PublicMarkdown/NotePublic/SystemOpt/Linux/npm_global_install_solution.md",
+    "TokyoBigsiteLogs/Neusoft/Task/password.md",
     "TokyoBigsiteLogs/Neusoft/Task/DailyTmp.md",
     "TokyoBigsiteLogs/Neusoft/Task/Release 相关.md",
     "TokyoBigsiteLogs/Neusoft/Task/install cisco.md",
@@ -221,7 +222,6 @@
     "PublicMarkdown/MarkdownGrammer/数学公式.md",
     "PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu xrdp+mate Install KVM 24.04.md",
     "PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu_Windows Remote.md",
-    "PublicMarkdown/NotePublic/SystemOpt/Linux/ubuntu_android_guide.md",
     "_resources",
     "pre-commit 2",
     "Untitled.canvas",
