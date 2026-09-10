@@ -33,7 +33,7 @@ newgrp libvirt
 virsh list --all
 kvm-ok
 ```
-- ![alt text](_resources/vscodeImages-1)
+- ![alt text](_resources/vscodeImages-1.png)
 #### 7. Start graphic tools
 ```
 virt-manager
@@ -73,7 +73,7 @@ network:
 ``` 
 ### Reboot machine
 ####  For static Ip for both host machine and vm machine, need to set network like the fellow
-- ![alt text](_resources/vscodeImages-14)
+- ![alt text](_resources/vscodeImages-14.png)
 
 </div>
 
@@ -89,14 +89,14 @@ cd /var/lib/libvirt; sudo chmod -R 755 images
 ```
 
 #### 2. create new machine 
-- ![alt text](_resources/vscodeImages-3)
+- ![alt text](_resources/vscodeImages-3.png)
 #### 3. select ubuntu iso
-- ![alt text](_resources/vscodeImages-4)
+- ![alt text](_resources/vscodeImages-4.png)
 #### 4. arrange resource and start install ubuntu.
 #### 5. after install finished and restart, might met this issues
-- ![alt text](_resources/vscodeImages-6)
+- ![alt text](_resources/vscodeImages-6.png)
 - ensure 3D acceleration is not selected
-- ![alt text](_resources/vscodeImages-7)
+- ![alt text](_resources/vscodeImages-7.png)
 </div>
 
 ***
@@ -109,11 +109,11 @@ cd /var/lib/libvirt; sudo chmod -R 755 images
 mkdir -p ~/vmshare
 ``` 
 #### 2. Enable shared memory
-- ![alt text](_resources/vscodeImages-8)
+- ![alt text](_resources/vscodeImages-8.png)
 #### 3. VM-> View Details → Add Hardware → Filesystem
-- ![alt text](_resources/vscodeImages-12)
+- ![alt text](_resources/vscodeImages-12.png)
 #### 4. Met start Error, with Solution.
-  - ![alt text](_resources/vscodeImages-11)
+  - ![alt text](_resources/vscodeImages-11.png)
 
 #### 5. Host Running command to active
 ```
@@ -146,6 +146,6 @@ sudo setfacl -R -m u:libvirt-qemu:rwx /media/neu/kvm_images
 
 #### 2. iso not active. need to change boot order
 
-![alt text](_resources/vscodeImages-15)
-![alt text](_resources/vscodeImages-16)
+![alt text](_resources/vscodeImages-15.png)
+![alt text](_resources/vscodeImages-16.png)
 </div>

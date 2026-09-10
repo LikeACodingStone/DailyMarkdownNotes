@@ -1,6 +1,6 @@
 
 # 🚫 Session Already Running（会话已在运行）
-![alt text](_resources/vscodeImages-13)
+![alt text](_resources/vscodeImages-13.png)
 ## ❗ 問題說明
 > **Login is not possible because a session is already running for `neusoft`.**  
 > **由于用户 `neusoft` 的会话已在运行，因此无法登录。**

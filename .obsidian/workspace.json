@@ -11,14 +11,14 @@
             "id": "fb5565ea9a664e32",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "PublicMarkdown/NotePublic/SystemOpt/Linux/npm_global_install_solution.md",
-                "mode": "preview",
-                "source": false
+                "aFile": "PublicMarkdown/NotePublic/SystemOpt/Win/Microsoft Teams.md",
+                "bFile": "PublicMarkdown/NotePublic/SystemOpt/Win/Microsoft Teams.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "npm_global_install_solution"
+              "icon": "diff",
+              "title": "Diff: Microsoft Teams  (Working Tree)"
             }
           }
         ]
@@ -76,8 +76,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -196,32 +195,32 @@
   },
   "active": "fb5565ea9a664e32",
   "lastOpenFiles": [
-    "TokyoBigsiteLogs/Neusoft/Task/Code Keywords.md",
-    "PublicMarkdown/NotePublic/SystemOpt/Linux/npm_global_install_solution.md",
+    "TokyoBigsiteLogs/Neusoft/tmp/promt.md",
+    "TokyoBigsiteLogs/Neusoft/tmp/k61.md",
+    "TokyoBigsiteLogs/Neusoft/tmp/Untitled.md",
     "TokyoBigsiteLogs/Neusoft/Task/password.md",
+    "TokyoBigsiteLogs/Neusoft/tmp/drive.md",
+    "TokyoBigsiteLogs/Neusoft/tmp/Daily English.md",
+    "TokyoBigsiteLogs/Neusoft/Task/All links.md",
+    "TokyoBigsiteLogs/Neusoft/Task/Code Keywords.md",
     "TokyoBigsiteLogs/Neusoft/Task/DailyTmp.md",
+    "TokyoBigsiteLogs/Neusoft/Task/Compile_Download_Error.md",
+    "TokyoBigsiteLogs/Neusoft/Task/update neusoft hooks.md",
     "TokyoBigsiteLogs/Neusoft/Task/Release 相关.md",
     "TokyoBigsiteLogs/Neusoft/Task/install cisco.md",
     "TokyoBigsiteLogs/Neusoft/Task/ftp_links.md",
-    "TokyoBigsiteLogs/Neusoft/Task/Compile_Download_Error.md",
+    "TokyoBigsiteLogs/Neusoft/tmp/错题.md",
+    "TokyoBigsiteLogs/Neusoft/Task/ADB_&FLASH_Command.md",
+    "TokyoBigsiteLogs/Neusoft/Task/Bosch Repo Error.md",
     "TokyoBigsiteLogs/Neusoft/Task/Bosch Code Check.md",
     "TokyoBigsiteLogs/Neusoft/Task/Bosch CCS2 Repo.md",
     "TokyoBigsiteLogs/Neusoft/Task/Android Studio env.md",
+    "TokyoBigsiteLogs/Neusoft/tmp/2016.md",
+    "PublicMarkdown/NotePublic/SystemOpt/Linux/npm_global_install_solution.md",
     "TokyoBigsiteLogs/Neusoft/Task/CCS2_Bosch_DebugAllAPP.md",
-    "TokyoBigsiteLogs/Neusoft/Task/Bosch Repo Error.md",
-    "TokyoBigsiteLogs/Neusoft/Task/All links.md",
-    "TokyoBigsiteLogs/Neusoft/Task/update neusoft hooks.md",
-    "TokyoBigsiteLogs/Neusoft/tmp/promt.md",
     "PublicMarkdown/NotePublic/IDEOpt/Android&Java/aosp task.md",
     "PublicMarkdown/NotePublic/IDEOpt/Android&Java/Android-Studio Gradle.md",
     "PublicMarkdown/NotePublic/IDEOpt/Android&Java/Android Studio.md",
-    "PublicMarkdown/NotePublic/IDEOpt/Android&Java/adb.md",
-    "PublicMarkdown/NotePublic/CodeChips/Qt Concept.md",
-    "PublicMarkdown/NotePublic/CodeChips/C++ Concept.md",
-    "TokyoBigsiteLogs/Neusoft/tmp/2016.md",
-    "PublicMarkdown/MarkdownGrammer/数学公式.md",
-    "PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu xrdp+mate Install KVM 24.04.md",
-    "PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu_Windows Remote.md",
     "_resources",
     "pre-commit 2",
     "Untitled.canvas",

@@ -169,4 +169,4 @@ if (Test-Path $TeamsIdentity) {
 Write-Host "【清理完成】请重新打开 Teams 尝试登录。" -ForegroundColor Cyan
 ```
 ### 5. Important,  Select No,
-![alt text](_resources/vscodeImages)
+![alt text](_resources/vscodeImages.png)
