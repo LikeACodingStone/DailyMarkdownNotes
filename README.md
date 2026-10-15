@@ -16,7 +16,7 @@
 - [mount mkfs.vfat](Linux/mount%20mkfs.vfat.md)
 - [npm_global_install_solution](Linux/npm_global_install_solution.md)
 - [openconnect 连接VPN以后，没有网络](Linux/openconnect%20%E8%BF%9E%E6%8E%A5VPN%E4%BB%A5%E5%90%8E%EF%BC%8C%E6%B2%A1%E6%9C%89%E7%BD%91%E7%BB%9C.md)
-- [Q_Linux_UsuallyTool](Linux/Q_Linux_UsuallyTool.md)
+- [ubuntu_Linux_Usually_Package](ubuntu_Linux_Usually_Package.md)
 - [Shell Summary](Linux/Shell%20Summary.md)
 - [Software启动错误(smartgit)](Linux/Software%E5%90%AF%E5%8A%A8%E9%94%99%E8%AF%AF%28smartgit%29.md)
 - [ssh 无法连接](Linux/ssh%20%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5.md)
