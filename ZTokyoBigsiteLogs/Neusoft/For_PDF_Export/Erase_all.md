@@ -1,3 +1,0 @@
-- ![b8845c515ec5ef620604956b9ec9b457.png](b8845c515ec5ef620604956b9ec9b457.png)
-- 设备号前加0
-- CD之前，pa_helper命令

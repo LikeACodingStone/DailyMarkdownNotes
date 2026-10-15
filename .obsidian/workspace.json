@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android/Android Studio.md",
+                "file": "Git_Repo/Git_Version_Control_Summary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Android Studio"
+              "title": "Git_Version_Control_Summary"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kvm",
+                "query": "cache",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -96,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Android Studio.md",
+                "file": "Git_Repo/Git_Version_Control_Summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Android/Android Studio.md",
+                "file": "Git_Repo/Git_Version_Control_Summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -158,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu 无显示器启动Waydroid.md",
+                "file": "Git_Repo/Git_Version_Control_Summary.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -198,12 +199,13 @@
   },
   "active": "a99c5ca8344d247b",
   "lastOpenFiles": [
+    "README.md",
+    "Android/Android Studio.md",
     "Android/Android-Studio Gradle.md",
     "Android/aosp task.md",
     "Android/windows adb识别异常处理.md",
     "Japanese/202602.md",
     "Untitled 1.canvas",
-    "README.md",
     "Untitled.canvas",
     "Programming/C++ Concept.md",
     "Git_Repo/Git_Version_Control_Summary.md",
@@ -225,7 +227,6 @@
     "AI/AMD AI搭建.md",
     "AI/Assistance.md",
     "Programming/常用安装VSCODE+PYQT5.md",
-    "Programming/windows 平台编译QJson.md",
     "Git/_resources/2371fc16177fab2725c75735f7de3b31.png",
     "Git/_resources/20802f723991854edb5ed9870f91e8f6.png",
     "image-link-check.json",
