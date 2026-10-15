@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3ac89597b3310ccb",
+        "id": "7c190599ced26588",
         "type": "tabs",
         "children": [
           {
-            "id": "fb5565ea9a664e32",
+            "id": "a99c5ca8344d247b",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "PublicMarkdown/NotePublic/SystemOpt/Win/Microsoft Teams.md",
-                "bFile": "PublicMarkdown/NotePublic/SystemOpt/Win/Microsoft Teams.md",
-                "aRef": ""
+                "file": "Android/Android Studio.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Microsoft Teams  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Android Studio"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "npm",
+                "query": "kvm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5
+    "width": 321.5
   },
   "right": {
     "id": "0344ebb4698bd1b2",
@@ -96,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Android/Android Studio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Android/Android Studio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -156,6 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu 无显示器启动Waydroid.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -165,7 +168,7 @@
             }
           },
           {
-            "id": "bf83500146fc6a71",
+            "id": "eb8a37b9c905a4cf",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -179,7 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 360.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,39 +196,56 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fb5565ea9a664e32",
+  "active": "a99c5ca8344d247b",
   "lastOpenFiles": [
-    "TokyoBigsiteLogs/Neusoft/tmp/promt.md",
-    "TokyoBigsiteLogs/Neusoft/tmp/k61.md",
-    "TokyoBigsiteLogs/Neusoft/tmp/Untitled.md",
-    "TokyoBigsiteLogs/Neusoft/Task/password.md",
-    "TokyoBigsiteLogs/Neusoft/tmp/drive.md",
-    "TokyoBigsiteLogs/Neusoft/tmp/Daily English.md",
-    "TokyoBigsiteLogs/Neusoft/Task/All links.md",
-    "TokyoBigsiteLogs/Neusoft/Task/Code Keywords.md",
-    "TokyoBigsiteLogs/Neusoft/Task/DailyTmp.md",
-    "TokyoBigsiteLogs/Neusoft/Task/Compile_Download_Error.md",
-    "TokyoBigsiteLogs/Neusoft/Task/update neusoft hooks.md",
-    "TokyoBigsiteLogs/Neusoft/Task/Release 相关.md",
-    "TokyoBigsiteLogs/Neusoft/Task/install cisco.md",
-    "TokyoBigsiteLogs/Neusoft/Task/ftp_links.md",
-    "TokyoBigsiteLogs/Neusoft/tmp/错题.md",
-    "TokyoBigsiteLogs/Neusoft/Task/ADB_&FLASH_Command.md",
-    "TokyoBigsiteLogs/Neusoft/Task/Bosch Repo Error.md",
-    "TokyoBigsiteLogs/Neusoft/Task/Bosch Code Check.md",
-    "TokyoBigsiteLogs/Neusoft/Task/Bosch CCS2 Repo.md",
-    "TokyoBigsiteLogs/Neusoft/Task/Android Studio env.md",
-    "TokyoBigsiteLogs/Neusoft/tmp/2016.md",
-    "PublicMarkdown/NotePublic/SystemOpt/Linux/npm_global_install_solution.md",
-    "TokyoBigsiteLogs/Neusoft/Task/CCS2_Bosch_DebugAllAPP.md",
-    "PublicMarkdown/NotePublic/IDEOpt/Android&Java/aosp task.md",
-    "PublicMarkdown/NotePublic/IDEOpt/Android&Java/Android-Studio Gradle.md",
-    "PublicMarkdown/NotePublic/IDEOpt/Android&Java/Android Studio.md",
-    "_resources",
-    "pre-commit 2",
+    "Android/Android-Studio Gradle.md",
+    "Android/aosp task.md",
+    "Android/windows adb识别异常处理.md",
+    "Japanese/202602.md",
+    "Untitled 1.canvas",
+    "README.md",
     "Untitled.canvas",
-    "pre-commit",
-    "pre-commit 1",
-    "PublicMarkdown/MarkdownGrammer"
+    "Programming/C++ Concept.md",
+    "Git_Repo/Git_Version_Control_Summary.md",
+    "Git_Repo/git reset user name.md",
+    "Git_Repo/Git Daily Command.md",
+    "Git_Repo/Git change previous commit message.md",
+    "Git_Repo/repoIssueSolution.md",
+    "Git_Repo/repoNormalCmd.md",
+    "Git_Repo/hooks pre-commit.md",
+    "Git/SVN Related.md",
+    "Git_Repo/github.md",
+    "Tools/Chrome 无法上网.md",
+    "Windows/Windows 定时任务，运行python.md",
+    "Linux/Q_Linux_UsuallyTool.md",
+    "Linux/常用shell.md",
+    "Linux/mount mkfs.vfat.md",
+    "Linux/B_File_Code_Search.md",
+    "AI/Ubuntu24.04 搭建AMD GPU工具链.md",
+    "AI/AMD AI搭建.md",
+    "AI/Assistance.md",
+    "Programming/常用安装VSCODE+PYQT5.md",
+    "Programming/windows 平台编译QJson.md",
+    "Git/_resources/2371fc16177fab2725c75735f7de3b31.png",
+    "Git/_resources/20802f723991854edb5ed9870f91e8f6.png",
+    "image-link-check.json",
+    "classification-moves.json",
+    "Android",
+    "Inbox",
+    "Linux",
+    "Git_Repo",
+    "Windows",
+    "Tools/command-delete-report.html",
+    "Tools",
+    "Japanese",
+    "assets/shared/f5a368d0b952517d272a2ecc1d66a4c2.png",
+    "assets/shared/e836c58af2649128f6b85dbd96de82d2.png",
+    "assets/shared/ead49068754fc40ee3cd5093399e8ef4.png",
+    "assets/shared/e67055ff2c2cab121adb9e922b6d6c5c.png",
+    "assets/shared/e5580ce5022b5c31575fdec7b2a8dd9c.png",
+    "assets/shared/e36312b2c4c467b8f14aea9e9b0e16e9.png",
+    "assets/shared/e4cc1c9e0beffa1bf99ce89c85d34494.png",
+    "assets/shared/e1e50161336e33f9dca3970f1511a61e.png",
+    "Untitled 2.canvas"
   ]
 }

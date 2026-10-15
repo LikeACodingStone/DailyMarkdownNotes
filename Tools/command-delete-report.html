@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PublicMarkdown Gist Deletion Report</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #1f2933;
+      --muted: #5b6773;
+      --line: #d9e0e7;
+      --paper: #ffffff;
+      --wash: #f4f6f8;
+      --delete: #176b45;
+      --delete-bg: #e8f5ee;
+      --review: #8a5a00;
+      --review-bg: #fff5dc;
+      --keep: #7a2d2d;
+      --keep-bg: #fcecec;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--wash);
+      color: var(--ink);
+      font: 15px/1.5 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    main {
+      max-width: 1500px;
+      margin: 0 auto;
+      padding: 32px 24px 56px;
+    }
+
+    h1, h2 { line-height: 1.2; }
+    h1 { margin: 0 0 8px; font-size: clamp(1.7rem, 3vw, 2.5rem); }
+    h2 { margin: 32px 0 12px; font-size: 1.25rem; }
+    p { margin: 8px 0; }
+    .muted { color: var(--muted); }
+
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin: 24px 0;
+    }
+
+    .metric {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px;
+    }
+
+    .metric strong {
+      display: block;
+      font-size: 1.8rem;
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+      margin: 18px 0 12px;
+    }
+
+    input {
+      min-width: min(420px, 100%);
+      flex: 1 1 260px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 10px 12px;
+      background: var(--paper);
+      color: var(--ink);
+      font: inherit;
+    }
+
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .badge {
+      display: inline-block;
+      border-radius: 999px;
+      padding: 3px 9px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .delete { color: var(--delete); background: var(--delete-bg); }
+    .review { color: var(--review); background: var(--review-bg); }
+    .keep { color: var(--keep); background: var(--keep-bg); }
+
+    .table-wrap {
+      overflow-x: auto;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+
+    table {
+      width: 100%;
+      min-width: 1120px;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: #eef1f4;
+      color: #35404b;
+      font-size: 0.82rem;
+      letter-spacing: 0.02em;
+      position: sticky;
+      top: 0;
+    }
+
+    tr:last-child td { border-bottom: 0; }
+    code {
+      font: 0.86em/1.45 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      overflow-wrap: anywhere;
+    }
+
+    .source { min-width: 390px; }
+    .output { min-width: 230px; }
+    .reason { min-width: 390px; color: var(--muted); }
+    .empty { display: none; padding: 18px; color: var(--muted); }
+
+    @media (max-width: 760px) {
+      main { padding: 22px 14px 40px; }
+      .summary { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <h1>PublicMarkdown Gist Deletion Report</h1>
+  <p class="muted">Generated from <code>PublicMarkdown/NotePublic</code>. This report recommends what can be removed after the corresponding Gist file has been reviewed. It does not delete anything.</p>
+
+  <section class="summary" aria-label="Summary">
+    <div class="metric"><strong>113</strong><span>source notes analyzed</span></div>
+    <div class="metric"><strong>42</strong><span>Gist files generated</span></div>
+    <div class="metric"><strong>17</strong><span>delete candidates</span></div>
+    <div class="metric"><strong>25</strong><span>review before deletion</span></div>
+  </section>
+
+  <div class="toolbar">
+    <input id="filter" type="search" placeholder="Filter by source, output, or reason" aria-label="Filter report">
+    <div class="legend" aria-label="Status legend">
+      <span class="badge delete">DELETE CANDIDATE</span>
+      <span class="badge review">REVIEW</span>
+    </div>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Status</th>
+          <th>Original note</th>
+          <th>Generated Gist file</th>
+          <th>Why</th>
+        </tr>
+      </thead>
+      <tbody id="rows">
+        <tr data-status="delete">
+          <td><span class="badge delete">DELETE CANDIDATE</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Shell/Find_Grep.md</code></td>
+          <td class="output"><a href="./Shell-Find-Grep.md"><code>Shell-Find-Grep.md</code></a></td>
+          <td class="reason">Two standalone find commands are fully represented.</td>
+        </tr>
+        <tr data-status="delete">
+          <td><span class="badge delete">DELETE CANDIDATE</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Shell/常用shell.md</code></td>
+          <td class="output"><a href="./Shell-Common.md"><code>Shell-Common.md</code></a></td>
+          <td class="reason">A compact command reference with no unique prose or assets.</td>
+        </tr>
+        <tr data-status="delete">
+          <td><span class="badge delete">DELETE CANDIDATE</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Shell/mount mkfs.vfat.md</code></td>
+          <td class="output"><a href="./Shell-Mount-VFAT.md"><code>Shell-Mount-VFAT.md</code></a></td>
+          <td class="reason">Three formatting and mount commands are represented; device paths are now placeholders.</td>
+        </tr>
+        <tr data-status="delete">
+          <td><span class="badge delete">DELETE CANDIDATE</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Shell/gcc.md</code></td>
+          <td class="output"><a href="./Shell-GCC.md"><code>Shell-GCC.md</code></a></td>
+          <td class="reason">One standalone GCC command.</td>
+        </tr>
+        <tr data-status="delete">
+          <td><span class="badge delete">DELETE CANDIDATE</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Shell/ldconfig load so.md</code></td>
+          <td class="output"><a href="./Shell-Ldconfig.md"><code>Shell-Ldconfig.md</code></a></td>
+          <td class="reason">One linker-cache command and its short instruction are represented.</td>
+        </tr>
+        <tr data-status="delete">
+          <td><span class="badge delete">DELETE CANDIDATE</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Shell/ssh 无法连接.md</code></td>
+          <td class="output"><a href="./Shell-SSH-Known-Hosts.md"><code>Shell-SSH-Known-Hosts.md</code></a></td>
+          <td class="reason">A single stale-host-key action; the generated command uses ssh-keygen safely.</td>
+        </tr>
+        <tr data-status="delete">
+          <td><span class="badge delete">DELETE CANDIDATE</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Git_SVN_REPO/repo lfs.md</code></td>
+          <td class="output"><a href="./Repo-LFS-Credentials.md"><code>Repo-LFS-Credentials.md</code></a></td>
+          <td class="reason">One Git credential-cache command.</td>
+        </tr>
+        <tr data-status="delete">
+          <td><span class="badge delete">DELETE CANDIDATE</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Git_SVN_REPO/git reset user name.md</code></td>
+          <td class="output"><a href="./Git-Submodule-Identity.md"><code>Git-Submodule-Identity.md</code></a></td>
+          <td class="reason">The duplicate submodule identity and remote commands are consolidated.</td>
+        </tr>
+        <tr data-status="delete">
+          <td><span class="badge delete">DELETE CANDIDATE</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Git_SVN_REPO/Git branch related.md</code></td>
+          <td class="output"><a href="./Git-Branches.md"><code>Git-Branches.md</code></a></td>
+          <td class="reason">A standalone Git branch command reference.</td>
+        </tr>
+        <tr data-status="delete">
+          <td><span class="badge delete">DELETE CANDIDATE</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/IDEOpt/Android&amp;Java/Java.md</code></td>
+          <td class="output"><a href="./Java-List-Jar.md"><code>Java-List-Jar.md</code></a></td>
+          <td class="reason">One standalone JAR inspection command.</td>
+        </tr>
+        <tr data-status="delete">
+          <td><span class="badge delete">DELETE CANDIDATE</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/IDEOpt/Android&amp;Java/adb.md</code></td>
+          <td class="output"><a href="./Android-ADB.md"><code>Android-ADB.md</code></a></td>
+          <td class="reason">The note is a short command reference; the extracted file retains its ADB and Ubuntu commands.</td>
+        </tr>
+        <tr data-status="delete">
+          <td><span class="badge delete">DELETE CANDIDATE</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Win/Windows Cmd CleanUp.md</code></td>
+          <td class="output"><a href="./Windows-Cleanup.md"><code>Windows-Cleanup.md</code></a></td>
+          <td class="reason">One standalone DISM command.</td>
+        </tr>
+        <tr data-status="delete">
+          <td><span class="badge delete">DELETE CANDIDATE</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu Snap&amp;dpkg&amp;flatapk.md</code></td>
+          <td class="output"><a href="./Ubuntu-Snap-Flatpak.md"><code>Ubuntu-Snap-Flatpak.md</code></a></td>
+          <td class="reason">The snap, dpkg, and Flatpak commands are fully represented.</td>
+        </tr>
+        <tr data-status="delete">
+          <td><span class="badge delete">DELETE CANDIDATE</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Linux/openconnect 连接VPN以后，没有网络.md</code></td>
+          <td class="output"><a href="./Ubuntu-Openconnect-Routes.md"><code>Ubuntu-Openconnect-Routes.md</code></a></td>
+          <td class="reason">A short four-command network recovery note.</td>
+        </tr>
+        <tr data-status="delete">
+          <td><span class="badge delete">DELETE CANDIDATE</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/HardWare/Amd GPU memeory status.md</code></td>
+          <td class="output"><a href="./GPU-ROCm-Status.md"><code>GPU-ROCm-Status.md</code></a></td>
+          <td class="reason">One standalone monitoring command.</td>
+        </tr>
+        <tr data-status="delete">
+          <td><span class="badge delete">DELETE CANDIDATE</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Network/hosts.md</code></td>
+          <td class="output"><a href="./DNS-Lookup.md"><code>DNS-Lookup.md</code></a></td>
+          <td class="reason">One standalone DNS lookup command.</td>
+        </tr>
+        <tr data-status="delete">
+          <td><span class="badge delete">DELETE CANDIDATE</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/PluginTools/Docker/Docker Issue.md</code></td>
+          <td class="output"><a href="./Docker-Daemon-Access.md"><code>Docker-Daemon-Access.md</code></a></td>
+          <td class="reason">The error note contains a short Docker group and service command fix.</td>
+        </tr>
+
+        <tr data-status="review">
+          <td><span class="badge review">REVIEW</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Git_SVN_REPO/Git Daily Command.md</code></td>
+          <td class="output"><a href="./Git-Daily.md"><code>Git-Daily.md</code></a></td>
+          <td class="reason">The wildcard safe-directory command was narrowed to a placeholder path; confirm the change is acceptable.</td>
+        </tr>
+        <tr data-status="review">
+          <td><span class="badge review">REVIEW</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Git_SVN_REPO/repoNormalCmd.md</code></td>
+          <td class="output"><a href="./Repo-Common.md"><code>Repo-Common.md</code></a></td>
+          <td class="reason">The source is currently modified in the worktree; review it before removing the active edit.</td>
+        </tr>
+        <tr data-status="review">
+          <td><span class="badge review">REVIEW</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Git_SVN_REPO/Git change previous commit message.md</code></td>
+          <td class="output"><a href="./Git-Rewrite-Commit.md"><code>Git-Rewrite-Commit.md</code></a></td>
+          <td class="reason">The generated file keeps commands but drops the original step-by-step rebase explanation.</td>
+        </tr>
+        <tr data-status="review">
+          <td><span class="badge review">REVIEW</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Git_SVN_REPO/github.md</code></td>
+          <td class="output"><a href="./Git-Two-Accounts.md"><code>Git-Two-Accounts.md</code></a></td>
+          <td class="reason">The source includes SSH configuration instructions and a linked config asset that were not copied.</td>
+        </tr>
+        <tr data-status="review">
+          <td><span class="badge review">REVIEW</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/IDEOpt/Android&amp;Java/aosp task.md</code></td>
+          <td class="output"><a href="./AOSP-Task.md"><code>AOSP-Task.md</code></a></td>
+          <td class="reason">Error context and Android Studio recovery steps remain only in the source note.</td>
+        </tr>
+        <tr data-status="review">
+          <td><span class="badge review">REVIEW</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/PasteFiles/pyinstaller.md</code></td>
+          <td class="output"><a href="./PyInstaller.md"><code>PyInstaller.md</code></a></td>
+          <td class="reason">The generated file omits the original troubleshooting output and inline usage notes.</td>
+        </tr>
+        <tr data-status="review">
+          <td><span class="badge review">REVIEW</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Win/Remote远程本地bat.md</code></td>
+          <td class="output"><a href="./Windows-Remote-Local-Batch.md"><code>Windows-Remote-Local-Batch.md</code></a></td>
+          <td class="reason">The public file redacts a password, host, user, and local paths; it is not an exact replacement.</td>
+        </tr>
+        <tr data-status="review">
+          <td><span class="badge review">REVIEW</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Linux/ubuntu Operation.md</code></td>
+          <td class="output"><a href="./Ubuntu-Operation.md"><code>Ubuntu-Operation.md</code></a></td>
+          <td class="reason">The generated file keeps the Buildozer commands but drops the surrounding Ubuntu notes.</td>
+        </tr>
+        <tr data-status="review">
+          <td><span class="badge review">REVIEW</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu 硬盘挂载.md</code></td>
+          <td class="output"><a href="./Ubuntu-Disk-Mount.md"><code>Ubuntu-Disk-Mount.md</code></a></td>
+          <td class="reason">The UUID output and machine-specific mount details were replaced with placeholders.</td>
+        </tr>
+        <tr data-status="review">
+          <td><span class="badge review">REVIEW</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu chattr.md</code></td>
+          <td class="output"><a href="./Ubuntu-Chattr.md"><code>Ubuntu-Chattr.md</code></a></td>
+          <td class="reason">The source has useful explanations of immutable and append-only attributes that the Gist omits.</td>
+        </tr>
+        <tr data-status="review">
+          <td><span class="badge review">REVIEW</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu protect UI delete.md</code></td>
+          <td class="output"><a href="./Ubuntu-Protect-Directory.md"><code>Ubuntu-Protect-Directory.md</code></a></td>
+          <td class="reason">The source points to the longer safe-rm note and includes explanatory context.</td>
+        </tr>
+        <tr data-status="review">
+          <td><span class="badge review">REVIEW</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Linux/npm_global_install_solution.md</code></td>
+          <td class="output"><a href="./Npm-Global-Install.md"><code>Npm-Global-Install.md</code></a></td>
+          <td class="reason">The source contains a complete permissions explanation and verification guide beyond the commands.</td>
+        </tr>
+        <tr data-status="review">
+          <td><span class="badge review">REVIEW</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu 自定义快捷程序·.md</code></td>
+          <td class="output"><a href="./Ubuntu-Launcher.md"><code>Ubuntu-Launcher.md</code></a></td>
+          <td class="reason">Usernames, VPN endpoint, and local paths were redacted from the public file.</td>
+        </tr>
+        <tr data-status="review">
+          <td><span class="badge review">REVIEW</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Linux/ubuntu 权限设置ACL.md</code></td>
+          <td class="output"><a href="./Ubuntu-ACL.md"><code>Ubuntu-ACL.md</code></a></td>
+          <td class="reason">The source contains the ACL model and usage explanation; the Gist contains only commands.</td>
+        </tr>
+        <tr data-status="review">
+          <td><span class="badge review">REVIEW</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu Kernel.md</code></td>
+          <td class="output"><a href="./Ubuntu-Kernel.md"><code>Ubuntu-Kernel.md</code></a></td>
+          <td class="reason">The generated file omits sample output and the persistent GRUB settings explanation.</td>
+        </tr>
+        <tr data-status="review">
+          <td><span class="badge review">REVIEW</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu Swap.md</code></td>
+          <td class="output"><a href="./Ubuntu-Swap.md"><code>Ubuntu-Swap.md</code></a></td>
+          <td class="reason">The source is a full Swap and swappiness guide; the Gist is only a command sheet.</td>
+        </tr>
+        <tr data-status="review">
+          <td><span class="badge review">REVIEW</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Linux/ubuntu_benchmark_guide_short.md</code></td>
+          <td class="output"><a href="./Ubuntu-Benchmark.md"><code>Ubuntu-Benchmark.md</code></a></td>
+          <td class="reason">Benchmark interpretation and operating tips remain only in the source note.</td>
+        </tr>
+        <tr data-status="review">
+          <td><span class="badge review">REVIEW</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu_Windows Remote.md</code></td>
+          <td class="output"><a href="./Ubuntu-Xrdp-Mate.md"><code>Ubuntu-Xrdp-Mate.md</code></a></td>
+          <td class="reason">The generated file keeps the script and commands but drops the desktop and Xrdp explanation.</td>
+        </tr>
+        <tr data-status="review">
+          <td><span class="badge review">REVIEW</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Linux/ubuntu 22.04 固定IP.md</code></td>
+          <td class="output"><a href="./Ubuntu-Static-IP.md"><code>Ubuntu-Static-IP.md</code></a></td>
+          <td class="reason">The source also contains the NetworkManager fallback configuration, which is not in the Gist.</td>
+        </tr>
+        <tr data-status="review">
+          <td><span class="badge review">REVIEW</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu Session Already Running.md</code></td>
+          <td class="output"><a href="./Ubuntu-Session-Cleanup.md"><code>Ubuntu-Session-Cleanup.md</code></a></td>
+          <td class="reason">TTY switching, login instructions, and force-stop warnings remain only in the source.</td>
+        </tr>
+        <tr data-status="review">
+          <td><span class="badge review">REVIEW</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Linux/Ubuntu24.04中文输入法.md</code></td>
+          <td class="output"><a href="./Ubuntu-KVM.md"><code>Ubuntu-KVM.md</code></a></td>
+          <td class="reason">The source includes bridge networking YAML, screenshots, and VM setup steps beyond the extracted commands.</td>
+        </tr>
+        <tr data-status="review">
+          <td><span class="badge review">REVIEW</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/PluginTools/Docker/Docker Install.md</code></td>
+          <td class="output"><a href="./Docker-Install.md"><code>Docker-Install.md</code></a></td>
+          <td class="reason">The generated file normalizes the private daemon configuration and omits some installation context.</td>
+        </tr>
+        <tr data-status="review">
+          <td><span class="badge review">REVIEW</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/Git_SVN_REPO/Docker login access.md</code></td>
+          <td class="output"><a href="./Docker-Proxy-Certificate.md"><code>Docker-Proxy-Certificate.md</code></a></td>
+          <td class="reason">Internal proxy and registry details were deliberately replaced with placeholders.</td>
+        </tr>
+        <tr data-status="review">
+          <td><span class="badge review">REVIEW</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/PluginTools/samba.md</code></td>
+          <td class="output"><a href="./Samba-Share.md"><code>Samba-Share.md</code></a></td>
+          <td class="reason">The source has multiple share configurations and internal paths; the public Gist uses a generic share.</td>
+        </tr>
+        <tr data-status="review">
+          <td><span class="badge review">REVIEW</span></td>
+          <td class="source"><code>PublicMarkdown/NotePublic/SystemOpt/PluginTools/MQTT.md</code></td>
+          <td class="output"><a href="./MQTT-Windows.md"><code>MQTT-Windows.md</code></a></td>
+          <td class="reason">The source links to a separate RunMQTT.bat asset that was not copied into the Gist.</td>
+        </tr>
+      </tbody>
+    </table>
+    <div id="empty" class="empty">No matching notes.</div>
+  </div>
+
+  <h2>Deletion rule</h2>
+  <p class="muted">The original note should be deleted only when its row is marked <span class="badge delete">DELETE CANDIDATE</span> and you explicitly confirm that source path. Rows marked <span class="badge review">REVIEW</span> should stay until their missing context is either copied into the Gist or intentionally discarded.</p>
+</main>
+<script>
+  const filter = document.getElementById("filter");
+  const rows = [...document.querySelectorAll("#rows tr")];
+  const empty = document.getElementById("empty");
+
+  filter.addEventListener("input", () => {
+    const query = filter.value.trim().toLowerCase();
+    let visible = 0;
+    for (const row of rows) {
+      const match = row.textContent.toLowerCase().includes(query);
+      row.style.display = match ? "" : "none";
+      if (match) visible += 1;
+    }
+    empty.style.display = visible ? "none" : "block";
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "changed_notes": [
+    "Linux/Xrdp Display.md",
+    "Linux/Ubuntu Session Already Running.md",
+    "Linux/Ubuntu xrdp+mate Install KVM 24.04.md",
+    "Linux/Ubuntu24.04中文输入法.md",
+    "Windows/Windows 定时任务，运行python.md",
+    "Windows/Win10创建本地local用户.md",
+    "Windows/Windows 共享密码过期.md",
+    "Windows/Microsoft Teams.md",
+    "Windows/Windows Server Git 服务器搭建.md",
+    "Git/SVN Related.md",
+    "Programming/Qt 常用总结.md",
+    "Programming/0000  Qt常用内置图标.md",
+    "Programming/windows 平台编译QJson.md",
+    "Tools/beyond compare.md",
+    "Tools/3.Doxygen和Microsoft HTML Help安装.md",
+    "Tools/VS license过期，旧账号无法退出.md",
+    "Tools/VisualStudio C_ Issues.md",
+    "Tools/执行错误.md",
+    "Tools/FTP.md",
+    "Tools/编译错误.md",
+    "Tools/vmware.md",
+    "Tools/Vs调试进程卡死.md",
+    "Tools/Project Manager.md"
+  ],
+  "image_links": 105,
+  "verified_local_png_links": 105,
+  "local_image_files": 105,
+  "backup": "/tmp/obsidian-before-local-images-20261014-185649.tar.gz",
+  "approach": "Images beside notes in _resources; relative Markdown image links."
+}
