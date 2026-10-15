@@ -1,13 +1,3 @@
----
-gists:
-  - id: eb3eabde18ca7547736aa63fe48c54e4
-    url: 'https://gist.github.com/LikeACodingStone/eb3eabde18ca7547736aa63fe48c54e4'
-    createdAt: 2026-09-18T09:53:00.000Z
-    updatedAt: '2026-10-15T09:21:10Z'
-    filename: N_Version_Control_Containers_Cloud_Operations.md
-    isPublic: true
-    baseUrl: 'https://api.github.com'
----
 ### Git 
 ```bash
 # for submodules

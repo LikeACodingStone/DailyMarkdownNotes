@@ -6,12 +6,12 @@
 
 ## Linux
 
-- [B_File_Code_Search](Linux/B_File_Code_Search.md)
-- [E_Shell_Terminal_Task_Automation](Linux/E_Shell_Terminal_Task_Automation.md)
+- [ubuntu_search](ubuntu_search.md)
+- [Ubuntu_Shell_Terminal_Task_Automation](Ubuntu_Shell_Terminal_Task_Automation.md)
 - [Find_Grep](Linux/Find_Grep.md)
-- [H_Network_Remote_Communication](Linux/H_Network_Remote_Communication.md)
-- [I_Users_Permissions_Security](Linux/I_Users_Permissions_Security.md)
-- [J_Package_Environment_Management](Linux/J_Package_Environment_Management.md)
+- [ubuntu_Network_Remote_Communication](ubuntu_Network_Remote_Communication.md)
+- [ubuntu_Users_Permissions_Security](ubuntu_Users_Permissions_Security.md)
+- [Ubuntu_Package_Environment_Management](Ubuntu_Package_Environment_Management.md)
 - [ldconfig load so](Linux/ldconfig%20load%20so.md)
 - [mount mkfs.vfat](Linux/mount%20mkfs.vfat.md)
 - [npm_global_install_solution](Linux/npm_global_install_solution.md)

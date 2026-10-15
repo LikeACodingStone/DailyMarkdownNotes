@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/B_File_Code_Search.md",
+                "file": "Git_Repo/repoIssueSolution.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "B_File_Code_Search"
+              "title": "repoIssueSolution"
             }
           }
         ]
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/B_File_Code_Search.md",
+                "file": "Git_Repo/repoIssueSolution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/B_File_Code_Search.md",
+                "file": "Git_Repo/repoIssueSolution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/B_File_Code_Search.md",
+                "file": "Git_Repo/repoIssueSolution.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -198,32 +198,32 @@
   },
   "active": "a99c5ca8344d247b",
   "lastOpenFiles": [
-    "Linux/E_Shell_Terminal_Task_Automation.md",
+    "Git_Repo/repoNormalCmd.md",
     "Linux/Find_Grep.md",
+    "Linux/ldconfig load so.md",
+    "Linux/mount mkfs.vfat.md",
+    "Linux/npm_global_install_solution.md",
+    "Linux/openconnect 连接VPN以后，没有网络.md",
+    "Linux/Ubuntu_Package_Environment_Management.md",
+    "Linux/ubuntu_Users_Permissions_Security.md",
+    "Linux/ubuntu_Network_Remote_Communication.md",
+    "Linux/Ubuntu_Shell_Terminal_Task_Automation.md",
+    "Git_Repo/Git_Version_Control_Summary.md",
+    "Git_Repo/git reset user name.md",
+    "Git_Repo/git hooks related.md",
     "Git_Repo/git config two account.md",
     "Git_Repo/Git change previous commit message.md",
+    "Linux/ubuntu_search.md",
     "Android/windows adb识别异常处理.md",
     "Android/aosp task.md",
     "Android/Android-Studio Gradle.md",
     "Android/Android Studio.md",
-    "Git_Repo/git reset user name.md",
-    "Git_Repo/git hooks related.md",
-    "Git_Repo/repoNormalCmd.md",
     "Git_Repo/repoIssueSolution.md",
-    "Git_Repo/Git_Version_Control_Summary.md",
     "Git_Repo/repo lfs.md",
     "pre-commit.md",
     "Git_Repo/Git Daily Command.md",
     "Android/adb.md",
     "Tools/编译错误.md",
-    "Tools/编译图标.md",
-    "Tools/MQTT.md",
-    "Tools/窗口和字体大小.md",
-    "Tools/Markdown_Grammer.md",
-    "Programming/常用安装VSCODE+PYQT5.md",
-    "Programming/Qt常用内置图标.md",
-    "Programming/Qt 常用总结.md",
-    "Programming/Qt Concept.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Git/_resources/2371fc16177fab2725c75735f7de3b31.png",
