@@ -67,7 +67,7 @@
 
 - [Git change previous commit message](Git%20change%20previous%20commit%20message.md)
 - [Git Daily Command]([Git_Version_Control](Git_Version_Control.md)t/github.md)
-- [hooks pre-commit](hooks%20pre-commit.md)
+- [git hooks related](git%20hooks%20related.md)
 - [N_Version_Control_Containers_Cloud_Operations](Git/N_Version_Control_Containers_Cloud_Operations.md)
 - [repo lfs](repo%20lfs.md)
 - [repoIssueSolution](repoIssueSolution.md)
@@ -96,7 +96,7 @@
 
 ## Tools
 
-- [000_Markdown_Grammer](Tools/000_Markdown_Grammer.md)
+- [Markdown_Grammer](Markdown_Grammer.md)
 - [3.Doxygen和Microsoft HTML Help安装](Tools/3.Doxygen%E5%92%8CMicrosoft%20HTML%20Help%E5%AE%89%E8%A3%85.md)
 - [Amd GPU memeory status](Tools/Amd%20GPU%20memeory%20status.md)
 - [anki_fsrs_optimization_guide](Tools/anki_fsrs_optimization_guide.md)

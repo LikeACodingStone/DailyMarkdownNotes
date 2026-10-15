@@ -3,7 +3,7 @@ gists:
   - id: eb3eabde18ca7547736aa63fe48c54e4
     url: 'https://gist.github.com/LikeACodingStone/eb3eabde18ca7547736aa63fe48c54e4'
     createdAt: 2026-09-18T09:53:00.000Z
-    updatedAt: '2026-10-15T09:02:21Z'
+    updatedAt: '2026-10-15T09:21:10Z'
     filename: N_Version_Control_Containers_Cloud_Operations.md
     isPublic: true
     baseUrl: 'https://api.github.com'
@@ -17,6 +17,7 @@ git checkout branch_name --recurse-submodules
 # Create a local branch from a remote branch.
 git branch local_branch --track remotes/origin/remote_branch
 git checkout -b local_branch --track remotes/origin/remote_branch
+git checkout -b stabilization/2024/product_vics_DA3_Bosch --track origin/stabilization/2024/product_vics_DA3_Bosch   # 创建本地分支并映射远程分支
 
 # push for review
 git push origin HEAD:refs/for/ccs2_ccs2_android_a14_int
@@ -40,6 +41,25 @@ git restore --source=bbe9a5^ -- java/vendor/neusoft/service/etcvics/BoschSystemH
 
 # worktree using
 git worktree add ../baosp_a14 ccs2_a14_int
+
+# From windows sambe access linux samba. no access via IDE or smartgit 
+git config --global --add safe.directory *
+
+# test git connection
+ssh -T git@github.com
+
+## git tag
+git tag <tagName> 
+git push origin <tagName> 
+
+
+# unable to access 'https://github.com/CodingKilling/GitLab_Jimi.git/': OpenSSL SSL_read: Connection was reset, errno 10054
+git config --global http.sslVerify "false"			// 设置不需要SSL认证
+git config http.postBuffer 5242880003					// 设置最大大小500M
+
+git submodule update --init --recursiv
+
+
 ```
 
 ## Repo
