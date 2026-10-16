@@ -70,8 +70,8 @@
 - [git hooks related](git%20hooks%20related.md)
 - [N_Version_Control_Containers_Cloud_Operations](Git/N_Version_Control_Containers_Cloud_Operations.md)
 - [repo lfs](repo%20lfs.md)
-- [repoIssueSolution](repoIssueSolution.md)
-- [repoNormalCmd](repoNormalCmd.md)
+- [repo_usually_error_case](repo_usually_error_case.md)
+- [repo_cmd_summary](repo_cmd_summary.md)
 - [SVN Related](Git/SVN%20Related.md)
 
 ## Android

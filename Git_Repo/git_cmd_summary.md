@@ -1,4 +1,4 @@
-### Git 
+
 ```bash
 # for submodules
 git pull --recurse-submodules
@@ -49,13 +49,4 @@ git config http.postBuffer 5242880003					// 设置最大大小500M
 
 git submodule update --init --recursiv
 
-
-```
-
-## Repo
-```bash
-repo download -c . CHANGE_ID
-
-### backup all local changes for repo
-repo forall -c 'git stash push -u -m "backup-before-repo-sync"'
 ```

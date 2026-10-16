@@ -1,6 +1,6 @@
 ### Solution Example
-- #### Error
-```
+- #### error case 1
+```bash
 error: Cannot checkout platform/proprietary
 Checking out:  66% (948/1425), done in 4.310s
 error: Unable to fully sync the tree
