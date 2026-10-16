@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gist_code/repo_error_case_summary.md",
-                "mode": "preview",
+                "file": "Inbox/Kindle_PW4_Jailbreak_KOReader.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "repo_error_case_summary"
+              "title": "Kindle_PW4_Jailbreak_KOReader"
+            }
+          },
+          {
+            "id": "80db512bb0b51cd8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Obsidian settings.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Obsidian settings"
+            }
+          },
+          {
+            "id": "cd5010025e8c957b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Kindle_PW4_Jailbreak_KOReader.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Kindle_PW4_Jailbreak_KOReader"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -96,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "gist_code/repo_error_case_summary.md",
+                "file": "Inbox/Obsidian+git+gist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "gist_code/repo_error_case_summary.md",
+                "file": "Inbox/Obsidian+git+gist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -158,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "gist_code/repo_error_case_summary.md",
+                "file": "Inbox/Obsidian+git+gist.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -196,10 +225,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eb8a37b9c905a4cf",
+  "active": "cd5010025e8c957b",
   "lastOpenFiles": [
-    "Markdown_Grammer.md",
+    "Inbox/Obsidian settings.md",
+    "Inbox/Obsidian+git+gist.md",
+    "Inbox/Kindle_PW4_Jailbreak_KOReader.md",
+    "_Images/Pasted image 20261016153731.png",
     "gist_code/repo_error_case_summary.md",
+    "Markdown_Grammer.md",
+    "Pasted image 20261016145816.png",
+    "Pasted image 20261016145653.png",
+    "Pasted image 20261016145547.png",
     "Git_Repo/repo_usually_error_case.md",
     "pre-commit.md",
     "Untitled 1.canvas",
@@ -214,7 +250,6 @@
     "Git_Repo/git config two account.md",
     "Git_Repo/Git change previous commit message.md",
     "Android/adb.md",
-    "Inbox/Kindle_PW4_Jailbreak_KOReader.md",
     "Android/windows adb识别异常处理.md",
     "Android/aosp task.md",
     "Android/Android-Studio Gradle.md",
@@ -225,9 +260,6 @@
     "Linux/Ubuntu24.04中文输入法.md",
     "Linux/Vim.md",
     "Linux/Xrdp Display.md",
-    "Linux/常用shell.md",
-    "Linux/Shell Summary.md",
-    "Linux/Find_Grep.md",
     "Untitled.canvas",
     "Git/_resources/2371fc16177fab2725c75735f7de3b31.png",
     "Git/_resources/20802f723991854edb5ed9870f91e8f6.png",
@@ -242,10 +274,6 @@
     "assets/shared/e836c58af2649128f6b85dbd96de82d2.png",
     "assets/shared/ead49068754fc40ee3cd5093399e8ef4.png",
     "assets/shared/e67055ff2c2cab121adb9e922b6d6c5c.png",
-    "assets/shared/e5580ce5022b5c31575fdec7b2a8dd9c.png",
-    "assets/shared/e36312b2c4c467b8f14aea9e9b0e16e9.png",
-    "assets/shared/e4cc1c9e0beffa1bf99ce89c85d34494.png",
-    "assets/shared/e1e50161336e33f9dca3970f1511a61e.png",
     "Untitled 2.canvas"
   ]
 }
