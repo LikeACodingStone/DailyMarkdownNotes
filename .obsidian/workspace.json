@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/C001 Script block.md",
-                "mode": "source",
+                "file": "Python.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C001 Script block"
+              "title": "Python"
             }
           }
         ],
@@ -84,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "## markdown",
+                "query": "## update",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -227,6 +227,10 @@
   },
   "active": "cd5010025e8c957b",
   "lastOpenFiles": [
+    "README.md",
+    "Python.md",
+    "Markdown_Grammer.md",
+    "Tools/C001 Script block.md",
     "Tools/beyond compare.md",
     "Tools/Amd GPU memeory status.md",
     "Inbox/Kindle_PW4_Jailbreak_KOReader.md",
@@ -258,7 +262,6 @@
     "Git_Repo/git hooks related.md",
     "Git_Repo/git_cmd_summary.md",
     "Git_Repo/repo_cmd_summary.md",
-    "Markdown_Grammer.md",
     "Git_Repo/git config two account.md",
     "Git_Repo/Git change previous commit message.md",
     "pre-commit.md",
@@ -270,9 +273,6 @@
     "Android/adb.md",
     "Android/windows adb识别异常处理.md",
     "Android/aosp task.md",
-    "Android/Android-Studio Gradle.md",
-    "Android/Android Studio.md",
-    "Linux/Ubuntu_Windows Remote.md",
     "Untitled.canvas",
     "image-link-check.json",
     "Untitled 2.canvas"
