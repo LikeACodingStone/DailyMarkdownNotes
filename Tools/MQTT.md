@@ -9,7 +9,7 @@ C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Sta
 - 注意"Administrator" 有时候可能要换成其他实际用户名
 
 
-[RunMQTT.bat](../assets/shared/RunMQTT.bat)
+[RunMQTT.bat](../_assets/shared/RunMQTT.bat)
 
 *** 
 **Mqtt Server 启动后无法连接**

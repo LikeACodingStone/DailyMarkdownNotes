@@ -6,5 +6,5 @@
     "downscalePercent": 100
   },
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "_Images"
+  "attachmentFolderPath": "_assets/_Images"
 }

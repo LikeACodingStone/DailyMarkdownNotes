@@ -23,7 +23,7 @@ def navigation(root):
         for path in (root / topic).rglob('*.md'):
             rel = path.relative_to(root)
             if path.is_symlink() or any(
-                part.startswith('.') or part in ('_resources', 'assets')
+                part.startswith('.') or part in ('_resources', '_assets')
                 for part in rel.parts
             ):
                 continue
