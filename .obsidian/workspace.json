@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/AMD AI搭建.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AMD AI搭建"
-            }
-          },
-          {
-            "id": "bd228785dae06f03",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "gist_code/repo-error-case-summary.md",
+                "file": "Linux/ubuntu-login-vpn, self-define-app.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "repo-error-case-summary"
+              "title": "ubuntu-login-vpn, self-define-app"
             }
           }
         ]
@@ -212,8 +198,14 @@
   },
   "active": "f555035d1dfcf803",
   "lastOpenFiles": [
+    "gist_code/vpn_auto_login.md",
     "scripts/py_absort_gist_url.md",
+    "Linux/ubuntu-login-vpn, self-define-app.md",
     "gist_code/repo-error-case-summary.md",
+    "Linux/Ubuntu 自定义快捷程序·.md",
+    "Linux/openconnect 连接VPN以后，没有网络.md",
+    "gist_code/hooks-post-commit.md",
+    "AI/AMD AI搭建.md",
     "Git_Repo/repo-usually-error-case.md",
     "Git_Repo/git-reset-user-name.md",
     "Inbox/Windows_Plugins.md",
@@ -222,22 +214,16 @@
     "Git_Repo/git-config-two-account.md",
     "Git_Repo/repo-cmd-summary.md",
     "Git_Repo/git-hooks-related.md",
-    "gist_code/hooks-post-commit.md",
     "Inbox/VSCODE_Plugins.md",
     "Inbox/Windows_Develop_ToolList.md",
     "Inbox/Obsidian+git+gist.md",
     "AI/Ubuntu24.04 搭建AMD GPU工具链.md",
-    "AI/AMD AI搭建.md",
     "Android/Android Studio.md",
     "Android/adb.md",
     "[Git_Version_Control](Git_Version_Control.md)t/github.md",
     "Windows/Remote远程本地bat.md",
     "Windows/Microsoft Teams.md",
     "Windows/ThinkPad_USB_Reset_Note.md",
-    "Windows/U盘SD卡异常.md",
-    "Windows/win10输入法不显示词选.md",
-    "Windows/Windows Cmd CleanUp.md",
-    "Windows/Windows Remote.md",
     "scripts/__pycache__/py_absort_gist_url.cpython-312.pyc",
     "scripts/__pycache__",
     "scripts/py_absort_gist_url.py",
