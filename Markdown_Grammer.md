@@ -39,6 +39,7 @@ gists:
 | HTML colour      | <span style="color: #00AAFF;">蓝色文字</span>                    | Blue        |
 | HTML colour      | <span style="color: green; font-weight: bold;">绿色加粗文字</span> | Green       |
 
+[A_14_Kernel6.1_Download] (https://rb-cmbinex-fe-p1.de.bosch.com/artifactory/rnm-ccs2.0/bosch/deployment/android_a14/)
 ## Table Template
 
 | Name   | Description | Example   |

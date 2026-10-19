@@ -59,7 +59,7 @@
   "csFileExtension": "csx",
   "csInject": "",
   "pythonPath": "C:/Users/a1294.zhou/AppData/Local/Programs/Python/Python312/python.exe",
-  "pythonArgs": "",
+  "pythonArgs": "-X utf8 -u",
   "pythonEmbedPlots": true,
   "pythonFileExtension": "py",
   "pythonInject": "",
