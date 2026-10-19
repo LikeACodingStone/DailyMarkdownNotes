@@ -1,3 +1,8 @@
+### enviroment prepare
+```
+sudo apt update
+sudo apt install python3-evdev
+```
 
 - vpn_auto_login.py
 	-  [vpn_auto_login](https://gist.github.com/LikeACodingStone/9d6d57b31ed273c12de439340a9ca91a)
