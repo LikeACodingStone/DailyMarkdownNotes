@@ -12151,32 +12151,54 @@ var ReplExecutor = class extends AsyncExecutor {
       const finishSigil = `SIGIL_BLOCK_DONE_${Math.random()}_${Date.now()}_${code.length}`;
       outputter.startBlock();
       const wrappedCode = this.wrapCode(code, finishSigil);
-      this.process.stdin.write(wrappedCode);
       outputter.clear();
-      outputter.on("data", (data) => {
-        this.process.stdin.write(data);
-      });
+      const writeInput = (data) => {
+        if (this.process) this.process.stdin.write(data);
+      };
+      outputter.on("data", writeInput);
+      // Pipe chunks do not necessarily align with the completion marker.
+      let pendingOutput = "";
+      const cleanup = () => {
+        this.process.stdout.removeListener("data", writeToStdout);
+        this.process.stderr.removeListener("data", writeToStderr);
+        this.process.removeListener("close", onClose);
+        outputter.removeListener("data", writeInput);
+      };
+      const onClose = () => {
+        if (pendingOutput) outputter.write(pendingOutput);
+        // The process close handler may already have cleared this.process.
+        outputter.removeListener("data", writeInput);
+        resolve();
+      };
       const writeToStdout = (data) => {
-        let str = data.toString();
-        if (str.endsWith(finishSigil)) {
-          str = str.substring(0, str.length - finishSigil.length);
-          this.process.stdout.removeListener("data", writeToStdout);
-          this.process.stderr.removeListener("data", writeToStderr);
-          this.process.removeListener("close", resolve);
-          outputter.write(str);
+        pendingOutput += data.toString();
+        const markerIndex = pendingOutput.indexOf(finishSigil);
+        if (markerIndex !== -1) {
+          const visible = pendingOutput.slice(0, markerIndex) +
+            pendingOutput.slice(markerIndex + finishSigil.length);
+          if (visible) outputter.write(visible);
+          pendingOutput = "";
+          cleanup();
           resolve();
-        } else {
-          outputter.write(str);
+          return;
         }
+        // Retain only a suffix that could be the start of a split marker.
+        let keep = Math.min(pendingOutput.length, finishSigil.length - 1);
+        while (keep > 0 && !finishSigil.startsWith(pendingOutput.slice(-keep))) keep--;
+        const visible = pendingOutput.slice(0, pendingOutput.length - keep);
+        if (visible) outputter.write(visible);
+        pendingOutput = keep ? pendingOutput.slice(-keep) : "";
       };
       const writeToStderr = (data) => {
         outputter.writeErr(
           this.removePrompts(data.toString(), "stderr")
         );
       };
-      this.process.on("close", resolve);
+      this.process.on("close", onClose);
       this.process.stdout.on("data", writeToStdout);
       this.process.stderr.on("data", writeToStderr);
+      // Listen before sending work so fast responses cannot be missed.
+      this.process.stdin.write(wrappedCode);
     });
   }
   stop() {
@@ -12426,7 +12448,7 @@ try:
 except Exception as e:
     ${printName} (e, file=sys.stderr)
 finally:
-    ${printName} ("${finishSigil}", end="")
+    ${printName} ("${finishSigil}", end="", flush=True)
 
 `;
 

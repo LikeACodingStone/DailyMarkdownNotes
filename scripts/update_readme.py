@@ -11,7 +11,7 @@ import subprocess
 from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parents[1]
-TOPICS = ('Linux', 'Windows', 'Git', 'Android', 'Programming', 'Tools',
+TOPICS = ('Linux', 'Windows', 'Git_Repo', 'Android', 'Programming', 'Tools',
           'Japanese', 'AI', 'Inbox')
 START = '<!-- BEGIN AUTO NAVIGATION -->'
 END = '<!-- END AUTO NAVIGATION -->'

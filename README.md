@@ -6,17 +6,11 @@
 
 ## Linux
 
-- [ubuntu_search](ubuntu_search.md)
-- [Ubuntu_Shell_Terminal_Task_Automation](Ubuntu_Shell_Terminal_Task_Automation.md)
 - [Find_Grep](Linux/Find_Grep.md)
-- [ubuntu_Network_Remote_Communication](ubuntu_Network_Remote_Communication.md)
-- [ubuntu_Users_Permissions_Security](ubuntu_Users_Permissions_Security.md)
-- [Ubuntu_Package_Environment_Management](Ubuntu_Package_Environment_Management.md)
 - [ldconfig load so](Linux/ldconfig%20load%20so.md)
 - [mount mkfs.vfat](Linux/mount%20mkfs.vfat.md)
 - [npm_global_install_solution](Linux/npm_global_install_solution.md)
 - [openconnect 连接VPN以后，没有网络](Linux/openconnect%20%E8%BF%9E%E6%8E%A5VPN%E4%BB%A5%E5%90%8E%EF%BC%8C%E6%B2%A1%E6%9C%89%E7%BD%91%E7%BB%9C.md)
-- [ubuntu_Linux_Usually_Package](ubuntu_Linux_Usually_Package.md)
 - [Shell Summary](Linux/Shell%20Summary.md)
 - [Software启动错误(smartgit)](Linux/Software%E5%90%AF%E5%8A%A8%E9%94%99%E8%AF%AF%28smartgit%29.md)
 - [ssh 无法连接](Linux/ssh%20%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5.md)
@@ -41,7 +35,14 @@
 - [Ubuntu_24.04_Chinese_Locale_and_Input_Method](Linux/Ubuntu_24.04_Chinese_Locale_and_Input_Method.md)
 - [ubuntu_android_guide](Linux/ubuntu_android_guide.md)
 - [ubuntu_benchmark_guide_short](Linux/ubuntu_benchmark_guide_short.md)
+- [ubuntu_Linux_Usually_Package](Linux/ubuntu_Linux_Usually_Package.md)
+- [ubuntu_Network_Remote_Communication](Linux/ubuntu_Network_Remote_Communication.md)
+- [Ubuntu_Package_Environment_Management](Linux/Ubuntu_Package_Environment_Management.md)
+- [ubuntu_search](Linux/ubuntu_search.md)
+- [Ubuntu_Shell_Terminal_Task_Automation](Linux/Ubuntu_Shell_Terminal_Task_Automation.md)
+- [ubuntu_Users_Permissions_Security](Linux/ubuntu_Users_Permissions_Security.md)
 - [Ubuntu_Windows Remote](Linux/Ubuntu_Windows%20Remote.md)
+- [Ubuntu_xrdp_mate_Install_KVM_26.04](Linux/Ubuntu_xrdp_mate_Install_KVM_26.04.md)
 - [Vim](Linux/Vim.md)
 - [Xrdp Display](Linux/Xrdp%20Display.md)
 - [常用shell](Linux/%E5%B8%B8%E7%94%A8shell.md)
@@ -63,16 +64,15 @@
 - [Windows 定时任务，运行python](Windows/Windows%20%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1%EF%BC%8C%E8%BF%90%E8%A1%8Cpython.md)
 - [windows账户添加管理权](Windows/windows%E8%B4%A6%E6%88%B7%E6%B7%BB%E5%8A%A0%E7%AE%A1%E7%90%86%E6%9D%83.md)
 
-## Git
+## Git_Repo
 
-- [Git change previous commit message](Git%20change%20previous%20commit%20message.md)
-- [Git Daily Command]([Git_Version_Control](Git_Version_Control.md)t/github.md)
-- [git hooks related](git%20hooks%20related.md)
-- [N_Version_Control_Containers_Cloud_Operations](Git/N_Version_Control_Containers_Cloud_Operations.md)
-- [repo lfs](repo%20lfs.md)
-- [repo_usually_error_case](repo_usually_error_case.md)
-- [repo_cmd_summary](repo_cmd_summary.md)
-- [SVN Related](Git/SVN%20Related.md)
+- [Git change previous commit message](Git_Repo/Git%20change%20previous%20commit%20message.md)
+- [git config two account](Git_Repo/git%20config%20two%20account.md)
+- [git hooks related](Git_Repo/git%20hooks%20related.md)
+- [git reset user name](Git_Repo/git%20reset%20user%20name.md)
+- [git_cmd_summary](Git_Repo/git_cmd_summary.md)
+- [repo_cmd_summary](Git_Repo/repo_cmd_summary.md)
+- [repo_usually_error_case](Git_Repo/repo_usually_error_case.md)
 
 ## Android
 
@@ -96,7 +96,6 @@
 
 ## Tools
 
-- [Markdown_Grammer](Markdown_Grammer.md)
 - [3.Doxygen和Microsoft HTML Help安装](Tools/3.Doxygen%E5%92%8CMicrosoft%20HTML%20Help%E5%AE%89%E8%A3%85.md)
 - [Amd GPU memeory status](Tools/Amd%20GPU%20memeory%20status.md)
 - [anki_fsrs_optimization_guide](Tools/anki_fsrs_optimization_guide.md)
@@ -114,6 +113,7 @@
 - [excel](Tools/excel.md)
 - [FTP](Tools/FTP.md)
 - [hosts](Tools/hosts.md)
+- [HotKey Using](Tools/HotKey%20Using.md)
 - [JDK](Tools/JDK.md)
 - [MQTT](Tools/MQTT.md)
 - [Project Manager](Tools/Project%20Manager.md)
@@ -129,7 +129,6 @@
 - [导入乱码](Tools/%E5%AF%BC%E5%85%A5%E4%B9%B1%E7%A0%81.md)
 - [工程打开默认x86或x64](Tools/%E5%B7%A5%E7%A8%8B%E6%89%93%E5%BC%80%E9%BB%98%E8%AE%A4x86%E6%88%96x64.md)
 - [执行错误](Tools/%E6%89%A7%E8%A1%8C%E9%94%99%E8%AF%AF.md)
-- [窗口和字体大小](Tools/%E7%AA%97%E5%8F%A3%E5%92%8C%E5%AD%97%E4%BD%93%E5%A4%A7%E5%B0%8F.md)
 - [系统安装NVRAM已满](Tools/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85NVRAM%E5%B7%B2%E6%BB%A1.md)
 - [红色波浪线](Tools/%E7%BA%A2%E8%89%B2%E6%B3%A2%E6%B5%AA%E7%BA%BF.md)
 - [编译图标](Tools/%E7%BC%96%E8%AF%91%E5%9B%BE%E6%A0%87.md)
@@ -149,6 +148,9 @@
 ## Inbox
 
 - [2026-10-08](Inbox/2026-10-08.md)
+- [Kindle_PW4_Jailbreak_KOReader](Inbox/Kindle_PW4_Jailbreak_KOReader.md)
+- [Obsidian settings](Inbox/Obsidian%20settings.md)
+- [Obsidian+git+gist](Inbox/Obsidian%2Bgit%2Bgist.md)
 
 <!-- END AUTO NAVIGATION -->
 
