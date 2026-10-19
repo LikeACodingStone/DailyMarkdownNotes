@@ -42,5 +42,4 @@ pip install -r requirements.txt
 
 ```
 https://huggingface.co/join
-zhoushangjun1984@gmail.com/Hgt8964.
 ```

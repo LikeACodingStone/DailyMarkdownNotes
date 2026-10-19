@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "scripts/py_absort_gist_url.md",
+                "file": "AI/AMD AI搭建.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "py_absort_gist_url"
+              "title": "AMD AI搭建"
             }
           },
           {
@@ -210,12 +210,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bdd793617f45dd00",
+  "active": "f555035d1dfcf803",
   "lastOpenFiles": [
+    "scripts/py_absort_gist_url.md",
     "gist_code/repo-error-case-summary.md",
     "Git_Repo/repo-usually-error-case.md",
     "Git_Repo/git-reset-user-name.md",
-    "scripts/py_absort_gist_url.md",
     "Inbox/Windows_Plugins.md",
     "Git_Repo/git-cmd-summary.md",
     "Git_Repo/Git-change-previous-commit-message.md",
