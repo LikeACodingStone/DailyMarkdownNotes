@@ -147,7 +147,7 @@
 
 ## Inbox
 
-- [2026-10-08](Inbox/2026-10-08.md)
+- [2026-10-08](2026-10-08.md)
 - [Kindle_PW4_Jailbreak_KOReader](Inbox/Kindle_PW4_Jailbreak_KOReader.md)
 - [Obsidian settings](Inbox/Obsidian%20settings.md)
 - [Obsidian+git+gist](Inbox/Obsidian%2Bgit%2Bgist.md)
