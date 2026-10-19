@@ -66,13 +66,13 @@
 
 ## Git_Repo
 
-- [Git change previous commit message](Git_Repo/Git%20change%20previous%20commit%20message.md)
-- [git config two account](Git_Repo/git%20config%20two%20account.md)
-- [git hooks related](Git_Repo/git%20hooks%20related.md)
-- [git reset user name](Git_Repo/git%20reset%20user%20name.md)
-- [git_cmd_summary](Git_Repo/git_cmd_summary.md)
-- [repo_cmd_summary](Git_Repo/repo_cmd_summary.md)
-- [repo_usually_error_case](Git_Repo/repo_usually_error_case.md)
+- [Git-change-previous-commit-message](Git-change-previous-commit-message.md)
+- [git-config-two-account](git-config-two-account.md)
+- [git-hooks-related](git-hooks-related.md)
+- [git-reset-user-name](git-reset-user-name.md)
+- [git-cmd-summary](git-cmd-summary.md)
+- [repo-cmd-summary](repo-cmd-summary.md)
+- [repo-usually-error-case](repo-usually-error-case.md)
 
 ## Android
 

@@ -7,5 +7,5 @@ error: Unable to fully sync the tree
 error: Checking out local projects failed.
 ```
 - #### solution
-	- [repo_error_case_summary](https://gist.github.com/LikeACodingStone/daf4dcb15ea6b7ed6234e23baf06db76)
+	- [repo-error-case-summary](https://gist.github.com/LikeACodingStone/daf4dcb15ea6b7ed6234e23baf06db76)
 
