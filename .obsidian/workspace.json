@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/RepoNote_Android_GitHub_Setup.md",
+                "file": "Linux/ubuntu_Linux_Usually_Package.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RepoNote_Android_GitHub_Setup"
+              "title": "ubuntu_Linux_Usually_Package"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "## update",
+                "query": "apt install",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -198,32 +199,32 @@
   },
   "active": "f555035d1dfcf803",
   "lastOpenFiles": [
-    "Inbox/Obsidian+git+gist.md",
-    "Inbox/RepoNote_Android_GitHub_Setup.md",
-    "Linux/ldconfig load so.md",
-    "Linux/Find_Grep.md",
-    "Inbox/Obsidian settings.md",
-    "Inbox/Windows_Plugins.md",
-    "Inbox/Windows_Develop_ToolList.md",
-    "Inbox/VSCODE_Plugins.md",
-    "Git_Repo/git-config-two-account.md",
+    "Tools/README-Obsidian-GitHub-Gist.md",
     "Linux/npm_global_install_solution.md",
-    "Linux/Ubuntu chattr.md",
-    "Japanese/N3_Grammer.md",
-    "Japanese/202603.md",
-    "Japanese/202602.md",
-    "AI/Ubuntu24.04 搭建AMD GPU工具链.md",
-    "AI/AMD AI搭建.md",
-    "Inbox/Kindle_PW4_Jailbreak_KOReader.md",
-    "Tools/Audacity.md",
-    "Linux/ubuntu-login-vpn, self-define-app.md",
-    "gist_code/vpn_auto_login.md",
-    "scripts/py_absort_gist_url.md",
-    "gist_code/repo-error-case-summary.md",
-    "Linux/Ubuntu 自定义快捷程序·.md",
-    "Linux/openconnect 连接VPN以后，没有网络.md",
+    "ZTokyoBigsiteLogs/Neusoft/Task/10-task.md",
+    "ZTokyoBigsiteLogs/Neusoft/Task/ADB_&FLASH_Command.md",
+    "ZTokyoBigsiteLogs/Neusoft/Task/2026-10-08.md",
+    "ZTokyoBigsiteLogs/Neusoft/Task/tag.md",
+    "ZTokyoBigsiteLogs/Neusoft/Task/update neusoft hooks.md",
+    "ZTokyoBigsiteLogs/Neusoft/Task/认证相关.md",
+    "Markdown_Grammer.md",
+    "ZTokyoBigsiteLogs/Neusoft/tmp/promt.md",
+    "ZTokyoBigsiteLogs/Neusoft/Task/All links.md",
+    "ZTokyoBigsiteLogs/Neusoft/Task/Code Keywords.md",
+    "ZTokyoBigsiteLogs/Neusoft/Task/password.md",
     "gist_code/hooks-post-commit.md",
-    "Git_Repo/repo-usually-error-case.md",
+    "ZTokyoBigsiteLogs/Neusoft/Task/Android Studio env.md",
+    "ZTokyoBigsiteLogs/Neusoft/For_PDF_Export/Ubuntu Android Studio Setup.md",
+    "ZTokyoBigsiteLogs/Neusoft/For_PDF_Export/Erase_all.md",
+    "ZTokyoBigsiteLogs/Neusoft/For_PDF_Export/DA3 REPO ERROR.md",
+    "ZTokyoBigsiteLogs/Neusoft/For_PDF_Export/CCS2 REPO ERROR.md",
+    "ZTokyoBigsiteLogs/Neusoft/For_PDF_Export/Bosch_RepoOperation.md",
+    "ZTokyoBigsiteLogs/Neusoft/For_PDF_Export/A14_Flash_v1.0.5.md",
+    "ZTokyoBigsiteLogs/Neusoft/For_PDF_Export/🧠 Ubuntu Swap Mechanism & Configuration Guide.md",
+    "ZTokyoBigsiteLogs/Neusoft/For_PDF_Export/Bosch A14 Docker pull.md",
+    "ZTokyoBigsiteLogs/Neusoft/For_PDF_Export/Android Studio Compiling Error.md",
+    "Inbox/RepoNote_Android_GitHub_Setup.md",
+    "Inbox/Obsidian+git+gist.md",
     "scripts/__pycache__/py_absort_gist_url.cpython-312.pyc",
     "scripts/__pycache__",
     "scripts/py_absort_gist_url.py",

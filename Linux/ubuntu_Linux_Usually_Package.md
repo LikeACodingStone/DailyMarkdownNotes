@@ -6,6 +6,9 @@ sudo apt install batcat
 ## for GUI markdown view
 sudo apt install pandoc
 xdg-open README.md 
+
+# for GUI markdown view
+sudo apt install ghoshwriter
 ```
 
 ## seahorse
