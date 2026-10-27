@@ -11,14 +11,12 @@
             "id": "f555035d1dfcf803",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Linux/ubuntu_Linux_Usually_Package.md",
-                "mode": "preview",
-                "source": false
+                "file": "_assets/_Images/Pasted image 20261027182104.png"
               },
-              "icon": "lucide-file",
-              "title": "ubuntu_Linux_Usually_Package"
+              "icon": "lucide-image",
+              "title": "Pasted image 20261027182104"
             }
           }
         ]
@@ -76,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -199,6 +196,12 @@
   },
   "active": "f555035d1dfcf803",
   "lastOpenFiles": [
+    "_assets/_Images/Pasted image 20261027182104.png",
+    "Linux/Ubuntu System policy prevents Wi-Fi scans.md",
+    "ZTokyoBigsiteLogs/Neusoft/tmp/promt.md",
+    "ZTokyoBigsiteLogs/Neusoft/Task/认证相关.md",
+    "ZTokyoBigsiteLogs/Neusoft/Task/All links.md",
+    "Linux/ubuntu_Linux_Usually_Package.md",
     "Tools/README-Obsidian-GitHub-Gist.md",
     "Linux/npm_global_install_solution.md",
     "ZTokyoBigsiteLogs/Neusoft/Task/10-task.md",
@@ -206,10 +209,7 @@
     "ZTokyoBigsiteLogs/Neusoft/Task/2026-10-08.md",
     "ZTokyoBigsiteLogs/Neusoft/Task/tag.md",
     "ZTokyoBigsiteLogs/Neusoft/Task/update neusoft hooks.md",
-    "ZTokyoBigsiteLogs/Neusoft/Task/认证相关.md",
     "Markdown_Grammer.md",
-    "ZTokyoBigsiteLogs/Neusoft/tmp/promt.md",
-    "ZTokyoBigsiteLogs/Neusoft/Task/All links.md",
     "ZTokyoBigsiteLogs/Neusoft/Task/Code Keywords.md",
     "ZTokyoBigsiteLogs/Neusoft/Task/password.md",
     "gist_code/hooks-post-commit.md",
@@ -222,9 +222,6 @@
     "ZTokyoBigsiteLogs/Neusoft/For_PDF_Export/A14_Flash_v1.0.5.md",
     "ZTokyoBigsiteLogs/Neusoft/For_PDF_Export/🧠 Ubuntu Swap Mechanism & Configuration Guide.md",
     "ZTokyoBigsiteLogs/Neusoft/For_PDF_Export/Bosch A14 Docker pull.md",
-    "ZTokyoBigsiteLogs/Neusoft/For_PDF_Export/Android Studio Compiling Error.md",
-    "Inbox/RepoNote_Android_GitHub_Setup.md",
-    "Inbox/Obsidian+git+gist.md",
     "scripts/__pycache__/py_absort_gist_url.cpython-312.pyc",
     "scripts/__pycache__",
     "scripts/py_absort_gist_url.py",
@@ -240,7 +237,6 @@
     "_assets/shared/e836c58af2649128f6b85dbd96de82d2.png",
     "_assets/shared/e67055ff2c2cab121adb9e922b6d6c5c.png",
     "_assets/shared/e5580ce5022b5c31575fdec7b2a8dd9c.png",
-    "_assets/shared/e4cc1c9e0beffa1bf99ce89c85d34494.png",
     "_assets/shared/config",
     "_assets/shared",
     "_assets/_Images",
