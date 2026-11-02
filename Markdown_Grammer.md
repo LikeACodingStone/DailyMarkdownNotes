@@ -10,6 +10,23 @@ gists:
 ---
 # Markdown Quick Reference
 
+
+> [!NOTE]
+> This is a general explanation.
+
+> [!TIP]
+> Use multiple CPU cores to improve build speed.
+
+> [!IMPORTANT]
+> This configuration must be set before building.
+
+> [!WARNING]
+> Changing this parameter may affect system stability.
+
+> [!CAUTION]
+> This operation may delete existing files.
+> 
+
 | Purpose          | Markdown                                                     | Example     |
 | ---------------- | ------------------------------------------------------------ | ----------- |
 | Bold             | `**text**`                                                   | **text**    |
