@@ -21,8 +21,10 @@
 - [Ubuntu protect UI delete](Linux/Ubuntu%20protect%20UI%20delete.md)
 - [Ubuntu safe-rm instead of rm -rf](Linux/Ubuntu%20safe-rm%20instead%20of%20rm%20-rf.md)
 - [Ubuntu Session Already Running](Linux/Ubuntu%20Session%20Already%20Running.md)
+- [ubuntu simple concepts](Linux/ubuntu%20simple%20concepts.md)
 - [Ubuntu Snap&dpkg&flatapk](Linux/Ubuntu%20Snap%26dpkg%26flatapk.md)
 - [Ubuntu Swap](Linux/Ubuntu%20Swap.md)
+- [Ubuntu System policy prevents Wi-Fi scans](Linux/Ubuntu%20System%20policy%20prevents%20Wi-Fi%20scans.md)
 - [Ubuntu xrdp+mate Install KVM 24.04](Linux/Ubuntu%20xrdp%2Bmate%20Install%20KVM%2024.04.md)
 - [Ubuntu 分用户权限管理](Linux/Ubuntu%20%E5%88%86%E7%94%A8%E6%88%B7%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86.md)
 - [Ubuntu 无显示器启动Waydroid](Linux/Ubuntu%20%E6%97%A0%E6%98%BE%E7%A4%BA%E5%99%A8%E5%90%AF%E5%8A%A8Waydroid.md)
@@ -31,6 +33,7 @@
 - [Ubuntu 自定义快捷程序·](Linux/Ubuntu%20%E8%87%AA%E5%AE%9A%E4%B9%89%E5%BF%AB%E6%8D%B7%E7%A8%8B%E5%BA%8F%C2%B7.md)
 - [ubuntu-26.04-desktop-100g-lvm-after-install-system](Linux/ubuntu-26.04-desktop-100g-lvm-after-install-system.md)
 - [ubuntu-26.04-desktop-disk-lvm-before-install-system](Linux/ubuntu-26.04-desktop-disk-lvm-before-install-system.md)
+- [ubuntu-login-vpn, self-define-app](Linux/ubuntu-login-vpn%2C%20self-define-app.md)
 - [Ubuntu24.04中文输入法](Linux/Ubuntu24.04%E4%B8%AD%E6%96%87%E8%BE%93%E5%85%A5%E6%B3%95.md)
 - [Ubuntu_24.04_Chinese_Locale_and_Input_Method](Linux/Ubuntu_24.04_Chinese_Locale_and_Input_Method.md)
 - [ubuntu_android_guide](Linux/ubuntu_android_guide.md)
@@ -39,7 +42,6 @@
 - [ubuntu_Network_Remote_Communication](Linux/ubuntu_Network_Remote_Communication.md)
 - [Ubuntu_Package_Environment_Management](Linux/Ubuntu_Package_Environment_Management.md)
 - [ubuntu_search](Linux/ubuntu_search.md)
-- [ubuntu simple concepts](ubuntu%20simple%20concepts.md)
 - [ubuntu_Users_Permissions_Security](Linux/ubuntu_Users_Permissions_Security.md)
 - [Ubuntu_Windows Remote](Linux/Ubuntu_Windows%20Remote.md)
 - [Ubuntu_xrdp_mate_Install_KVM_26.04](Linux/Ubuntu_xrdp_mate_Install_KVM_26.04.md)
@@ -49,30 +51,21 @@
 
 ## Windows
 
-- [Microsoft Teams](Windows/Microsoft%20Teams.md)
-- [Remote远程本地bat](Windows/Remote%E8%BF%9C%E7%A8%8B%E6%9C%AC%E5%9C%B0bat.md)
-- [ThinkPad_USB_Reset_Note](Windows/ThinkPad_USB_Reset_Note.md)
-- [U盘SD卡异常](Windows/U%E7%9B%98SD%E5%8D%A1%E5%BC%82%E5%B8%B8.md)
-- [Win10 设置快捷启动程序](Windows/Win10%20%E8%AE%BE%E7%BD%AE%E5%BF%AB%E6%8D%B7%E5%90%AF%E5%8A%A8%E7%A8%8B%E5%BA%8F.md)
-- [Win10创建本地local用户](Windows/Win10%E5%88%9B%E5%BB%BA%E6%9C%AC%E5%9C%B0local%E7%94%A8%E6%88%B7.md)
-- [win10输入法不显示词选](Windows/win10%E8%BE%93%E5%85%A5%E6%B3%95%E4%B8%8D%E6%98%BE%E7%A4%BA%E8%AF%8D%E9%80%89.md)
-- [Win11 更新以后出现问题-_回退](Windows/Win11%20%E6%9B%B4%E6%96%B0%E4%BB%A5%E5%90%8E%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98-_%E5%9B%9E%E9%80%80.md)
-- [Windows Cmd CleanUp](Windows/Windows%20Cmd%20CleanUp.md)
-- [Windows Remote](Windows/Windows%20Remote.md)
-- [Windows Server Git 服务器搭建](Windows/Windows%20Server%20Git%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA.md)
-- [Windows 共享密码过期](Windows/Windows%20%E5%85%B1%E4%BA%AB%E5%AF%86%E7%A0%81%E8%BF%87%E6%9C%9F.md)
-- [Windows 定时任务，运行python](Windows/Windows%20%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1%EF%BC%8C%E8%BF%90%E8%A1%8Cpython.md)
-- [windows账户添加管理权](Windows/windows%E8%B4%A6%E6%88%B7%E6%B7%BB%E5%8A%A0%E7%AE%A1%E7%90%86%E6%9D%83.md)
+- [IPC Remote Launch with PsExec (IPC 远程启动程序)](Windows/IPC%20Remote%20Launch%20with%20PsExec%20%28IPC%20%E8%BF%9C%E7%A8%8B%E5%90%AF%E5%8A%A8%E7%A8%8B%E5%BA%8F%29.md)
+- [Microsoft Teams Fix (Teams 修复)](Windows/Microsoft%20Teams%20Fix%20%28Teams%20%E4%BF%AE%E5%A4%8D%29.md)
+- [ThinkPad USB Ports All Dead (ThinkPad USB 全部失效)](Windows/ThinkPad%20USB%20Ports%20All%20Dead%20%28ThinkPad%20USB%20%E5%85%A8%E9%83%A8%E5%A4%B1%E6%95%88%29.md)
+- [Windows Accounts & Permissions (账户与权限)](Windows/Windows%20Accounts%20%26%20Permissions%20%28%E8%B4%A6%E6%88%B7%E4%B8%8E%E6%9D%83%E9%99%90%29.md)
+- [Windows Quick Tips (小技巧速查)](Windows/Windows%20Quick%20Tips%20%28%E5%B0%8F%E6%8A%80%E5%B7%A7%E9%80%9F%E6%9F%A5%29.md)
 
 ## Git_Repo
 
-- [Git-change-previous-commit-message](Git-change-previous-commit-message.md)
-- [git-config-two-account](git-config-two-account.md)
-- [git-hooks-related](git-hooks-related.md)
-- [git-reset-user-name](git-reset-user-name.md)
-- [git-cmd-summary](git-cmd-summary.md)
-- [repo-cmd-summary](repo-cmd-summary.md)
-- [repo-usually-error-case](repo-usually-error-case.md)
+- [Git-change-previous-commit-message](Git_Repo/Git-change-previous-commit-message.md)
+- [git-cmd-summary](Git_Repo/git-cmd-summary.md)
+- [git-config-two-account](Git_Repo/git-config-two-account.md)
+- [git-hooks-related](Git_Repo/git-hooks-related.md)
+- [git-reset-user-name](Git_Repo/git-reset-user-name.md)
+- [repo-cmd-summary](Git_Repo/repo-cmd-summary.md)
+- [repo-usually-error-case](Git_Repo/repo-usually-error-case.md)
 
 ## Android
 
@@ -119,11 +112,11 @@
 - [Project Manager](Tools/Project%20Manager.md)
 - [README-Obsidian-GitHub-Gist](Tools/README-Obsidian-GitHub-Gist.md)
 - [samba](Tools/samba.md)
-- [vscode_Settings](vscode_Settings.md)
 - [VisualStudio C_ Issues](Tools/VisualStudio%20C_%20Issues.md)
 - [vmware](Tools/vmware.md)
 - [VS license过期，旧账号无法退出](Tools/VS%20license%E8%BF%87%E6%9C%9F%EF%BC%8C%E6%97%A7%E8%B4%A6%E5%8F%B7%E6%97%A0%E6%B3%95%E9%80%80%E5%87%BA.md)
 - [vs2015安装时无法选择安装路径解决办法](Tools/vs2015%E5%AE%89%E8%A3%85%E6%97%B6%E6%97%A0%E6%B3%95%E9%80%89%E6%8B%A9%E5%AE%89%E8%A3%85%E8%B7%AF%E5%BE%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95.md)
+- [vscode_Settings](Tools/vscode_Settings.md)
 - [Vs调试进程卡死](Tools/Vs%E8%B0%83%E8%AF%95%E8%BF%9B%E7%A8%8B%E5%8D%A1%E6%AD%BB.md)
 - [Work 文档](Tools/Work%20%E6%96%87%E6%A1%A3.md)
 - [导入乱码](Tools/%E5%AF%BC%E5%85%A5%E4%B9%B1%E7%A0%81.md)
@@ -147,10 +140,14 @@
 
 ## Inbox
 
-- [2026-10-08](2026-10-08.md)
+- [Ankidroid](Inbox/Ankidroid.md)
 - [Kindle_PW4_Jailbreak_KOReader](Inbox/Kindle_PW4_Jailbreak_KOReader.md)
 - [Obsidian settings](Inbox/Obsidian%20settings.md)
 - [Obsidian+git+gist](Inbox/Obsidian%2Bgit%2Bgist.md)
+- [RepoNote_Android_GitHub_Setup](Inbox/RepoNote_Android_GitHub_Setup.md)
+- [VSCODE_Plugins](Inbox/VSCODE_Plugins.md)
+- [Windows_Develop_ToolList](Inbox/Windows_Develop_ToolList.md)
+- [Windows_Plugins](Inbox/Windows_Plugins.md)
 
 <!-- END AUTO NAVIGATION -->
 
