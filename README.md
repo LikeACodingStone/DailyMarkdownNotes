@@ -47,15 +47,11 @@
 
 ## Programming
 
-- [C++ Concept](Programming/C%2B%2B%20Concept.md)
-- [gcc](Programming/gcc.md)
-- [Java](Programming/Java.md)
-- [pyinstaller](Programming/pyinstaller.md)
-- [Qt Concept](Programming/Qt%20Concept.md)
-- [Qt 常用总结](Programming/Qt%20%E5%B8%B8%E7%94%A8%E6%80%BB%E7%BB%93.md)
-- [Qt常用内置图标](Programming/Qt%E5%B8%B8%E7%94%A8%E5%86%85%E7%BD%AE%E5%9B%BE%E6%A0%87.md)
-- [windows 平台编译QJson](Programming/windows%20%E5%B9%B3%E5%8F%B0%E7%BC%96%E8%AF%91QJson.md)
-- [常用安装VSCODE+PYQT5](Programming/%E5%B8%B8%E7%94%A8%E5%AE%89%E8%A3%85VSCODE%2BPYQT5.md)
+- [Building QJson on Windows](Programming/Building%20QJson%20on%20Windows.md)
+- [C++, gcc & Java Notes](Programming/C%2B%2B%2C%20gcc%20%26%20Java%20Notes.md)
+- [Python Setup & PyInstaller](Programming/Python%20Setup%20%26%20PyInstaller.md)
+- [Qt Basics](Programming/Qt%20Basics.md)
+- [Qt Tips & Pitfalls](Programming/Qt%20Tips%20%26%20Pitfalls.md)
 
 ## Tools
 
