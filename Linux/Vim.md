@@ -1,6 +1,0 @@
-- CRTL+ V 和 CTRL+M 可以生成 ^M
-- fromdos filename 去掉 ^M
-- Vim上下左右乱码
-- 编辑/etc/vim/vimrc.tiny文件
-- 将倒数第二行的 set compatible 改为 set nocompatible
-- 再在上面这句后面换一行，增加 set backspace=2
