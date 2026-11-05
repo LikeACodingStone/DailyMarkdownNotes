@@ -6,16 +6,16 @@
 
 ## Linux
 
-- [Ubuntu Android Waydroid & ReDroid](Linux/Ubuntu%20Android%20Waydroid%20%26%20ReDroid.md)
-- [Ubuntu Chinese Locale & Input](Linux/Ubuntu%20Chinese%20Locale%20%26%20Input.md)
-- [Ubuntu Disk, Mount & LVM](Linux/Ubuntu%20Disk%2C%20Mount%20%26%20LVM.md)
+- [Ubuntu Android Waydroid & ReDroid](Linux/Ubuntu%20Android%20Waydroid%20&%20ReDroid.md)
+- [Ubuntu Chinese Locale & Input](Linux/Ubuntu%20Chinese%20Locale%20&%20Input.md)
+- [Ubuntu Disk, Mount & LVM](Linux/Ubuntu%20Disk,%20Mount%20&%20LVM.md)
 - [Ubuntu KVM Virtual Machines](Linux/Ubuntu%20KVM%20Virtual%20Machines.md)
 - [Ubuntu Network](Linux/Ubuntu%20Network.md)
 - [Ubuntu Packages](Linux/Ubuntu%20Packages.md)
 - [Ubuntu Shell Cheat Sheet](Linux/Ubuntu%20Shell%20Cheat%20Sheet.md)
 - [Ubuntu System Tweaks](Linux/Ubuntu%20System%20Tweaks.md)
-- [Ubuntu Users, Permissions & Delete Protection](Linux/Ubuntu%20Users%2C%20Permissions%20%26%20Delete%20Protection.md)
-- [Ubuntu VPN & Custom Launchers](Linux/Ubuntu%20VPN%20%26%20Custom%20Launchers.md)
+- [Ubuntu Users, Permissions & Delete Protection](Linux/Ubuntu%20Users,%20Permissions%20&%20Delete%20Protection.md)
+- [Ubuntu VPN & Custom Launchers](Linux/Ubuntu%20VPN%20&%20Custom%20Launchers.md)
 - [Ubuntu xrdp MATE Remote Desktop](Linux/Ubuntu%20xrdp%20MATE%20Remote%20Desktop.md)
 - [Ubuntu-quick-search](Linux/Ubuntu-quick-search.md)
 
@@ -24,7 +24,7 @@
 - [IPC Remote Launch with PsExec](Windows/IPC%20Remote%20Launch%20with%20PsExec.md)
 - [Microsoft Teams Fix](Windows/Microsoft%20Teams%20Fix.md)
 - [ThinkPad USB Ports All Dead](Windows/ThinkPad%20USB%20Ports%20All%20Dead.md)
-- [Windows Accounts & Permissions](Windows/Windows%20Accounts%20%26%20Permissions.md)
+- [Windows Accounts & Permissions](Windows/Windows%20Accounts%20&%20Permissions.md)
 - [Windows Quick Tips](Windows/Windows%20Quick%20Tips.md)
 
 ## Git_Repo
@@ -48,10 +48,10 @@
 ## Programming
 
 - [Building QJson on Windows](Programming/Building%20QJson%20on%20Windows.md)
-- [C++, gcc & Java Notes](Programming/C%2B%2B%2C%20gcc%20%26%20Java%20Notes.md)
-- [Python Setup & PyInstaller](Programming/Python%20Setup%20%26%20PyInstaller.md)
+- [C++, gcc & Java Notes](Programming/C++,%20gcc%20&%20Java%20Notes.md)
+- [Python Setup & PyInstaller](Programming/Python%20Setup%20&%20PyInstaller.md)
 - [Qt Basics](Programming/Qt%20Basics.md)
-- [Qt Tips & Pitfalls](Programming/Qt%20Tips%20%26%20Pitfalls.md)
+- [Qt Tips & Pitfalls](Programming/Qt%20Tips%20&%20Pitfalls.md)
 
 ## Tools
 
@@ -63,7 +63,7 @@
 - [Tools Quick Tips](Tools/Tools%20Quick%20Tips.md)
 - [UEFI NVRAM Full](Tools/UEFI%20NVRAM%20Full.md)
 - [Visual Studio Build Errors](Tools/Visual%20Studio%20Build%20Errors.md)
-- [Visual Studio Setup & Debug](Tools/Visual%20Studio%20Setup%20%26%20Debug.md)
+- [Visual Studio Setup & Debug](Tools/Visual%20Studio%20Setup%20&%20Debug.md)
 - [VMware Fixes](Tools/VMware%20Fixes.md)
 - [VS Code Setup](Tools/VS%20Code%20Setup.md)
 
@@ -84,7 +84,7 @@
 - [Ankidroid](Inbox/Ankidroid.md)
 - [Kindle_PW4_Jailbreak_KOReader](Inbox/Kindle_PW4_Jailbreak_KOReader.md)
 - [Obsidian settings](Inbox/Obsidian%20settings.md)
-- [Obsidian+git+gist](Inbox/Obsidian%2Bgit%2Bgist.md)
+- [Obsidian+git+gist](Inbox/Obsidian+git+gist.md)
 - [RepoNote_Android_GitHub_Setup](Inbox/RepoNote_Android_GitHub_Setup.md)
 - [VSCODE_Plugins](Inbox/VSCODE_Plugins.md)
 - [Windows_Develop_ToolList](Inbox/Windows_Develop_ToolList.md)

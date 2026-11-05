@@ -6,6 +6,7 @@ is preserved. Git-ignored files and attachment/hidden folders are excluded.
 """
 from pathlib import Path
 import argparse
+import os
 import re
 import subprocess
 from urllib.parse import quote
@@ -13,23 +14,46 @@ from urllib.parse import quote
 ROOT = Path(__file__).resolve().parents[1]
 TOPICS = ('Linux', 'Windows', 'Git_Repo', 'Android', 'Programming', 'Tools',
           'Japanese', 'AI', 'Inbox')
-START = '<!-- BEGIN AUTO NAVIGATION -->'
+ATTACHMENT_DIRS = ('_resources', '_assets')
+# Obsidian decodes link targets like decodeURI, which leaves %26 %2C %2B encoded, so a
+# link to "A & B.md" written with %26 opens an empty new note. Keep these characters
+# literal; GitHub reads them fine too.
+LINK_SAFE = '/;:@&=+$,'
+START ='<!-- BEGIN AUTO NAVIGATION -->'
 END = '<!-- END AUTO NAVIGATION -->'
 
 
+def list_notes(folder, parts):
+    """Yield the notes under folder as 'Topic/sub/name.md'.
+
+    Each folder is listed once and every entry is classified from that listing.
+    Per-note stat/resolve calls are network round trips when the vault is on an
+    SMB share, so they are avoided. Hidden entries, attachment folders and
+    symlinks are skipped without being entered.
+    """
+    try:
+        with os.scandir(folder) as scan:
+            entries = list(scan)
+    except (FileNotFoundError, NotADirectoryError, PermissionError):
+        return
+    for entry in entries:
+        name = entry.name
+        if name.startswith('.') or name in ATTACHMENT_DIRS or entry.is_symlink():
+            continue
+        if entry.is_dir():
+            yield from list_notes(entry.path, parts + (name,))
+        elif os.path.normcase(name).endswith('.md'):
+            yield '/'.join(parts + (name,))
+
+
 def navigation(root):
+    real_root = Path(os.path.realpath(root))
     candidates = []
     for topic in TOPICS:
-        for path in (root / topic).rglob('*.md'):
-            rel = path.relative_to(root)
-            if path.is_symlink() or any(
-                part.startswith('.') or part in ('_resources', '_assets')
-                for part in rel.parts
-            ):
-                continue
-            if not path.resolve().is_relative_to(root.resolve()):
-                continue
-            candidates.append(rel.as_posix())
+        folder = root / topic
+        # Do not follow a topic folder that is a symlink pointing out of the vault.
+        if Path(os.path.realpath(folder)).is_relative_to(real_root):
+            candidates.extend(list_notes(folder, (topic,)))
     # --no-index also excludes ignored files that were previously tracked.
     result = subprocess.run(
         ['git', 'check-ignore', '--no-index', '-z', '--stdin'], cwd=root,
@@ -48,7 +72,7 @@ def navigation(root):
         lines.extend([f'## {topic}', ''])
         for name in names:
             label = re.sub(r'([\\\[\]])', r'\\\1', Path(name).stem)
-            lines.append(f'- [{label}]({quote(name, safe="/")})')
+            lines.append(f'- [{label}]({quote(name, safe=LINK_SAFE)})')
         lines.append('')
     lines.append(END)
     return '\n'.join(lines)
