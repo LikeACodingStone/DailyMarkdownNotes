@@ -1,0 +1,1 @@
+[Slap slap card games](https://en.wikipedia.org/wiki/Egyptian_Ratscrew)
